@@ -13,12 +13,6 @@ Feel free to contact me if you have any questions. You can reach me via email at
 - **Advanced Machine Learning**
 - **Augmented Reality**
 
-## Projects and Research
-Here are some highlights of my recent projects and research work:
-- **[Project Title](#)**: Brief description of the project and its significance.
-- **[Project Title](#)**: Brief description of the project and its significance.
-- **[Project Title](#)**: Brief description of the project and its significance.
-
 ## Publications
 - **[Medium Scale Benchmark for Cricket Excited Actions Understanding](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Hussain_Medium_Scale_Benchmark_for_Cricket_Excited_Actions_Understanding_CVPRW_2024_paper.html)**
 - *Venue:* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) WorkshopsAt: Seattle Convention Center in Seattle, Washington, U.S.A.
