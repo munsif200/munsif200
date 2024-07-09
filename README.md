@@ -5,11 +5,6 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 
 Feel free to contact me if you have any questions. You can reach me via email at [munsif3797@gmail.com](mailto:munsif3797@gmail.com).
 
-## Disciplines
-- **Artificial Neural Networks**
-- **Artificial Intelligence**
-- **Human-Computer Interaction**
-
 ## Skills and Expertise
 - **Computer Vision**
 - **Deep Learning**
