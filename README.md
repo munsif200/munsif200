@@ -1,7 +1,7 @@
 # Muhammad Munsif
 
 ## Introduction
-Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent agents’ simulation, intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.
+Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.
 
 Feel free to contact me if you have any questions. You can reach me via email at [munsif3797@gmail.com](mailto:munsif3797@gmail.com).
 
