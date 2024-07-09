@@ -11,7 +11,7 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 
 ## Publications
 - **[Medium Scale Benchmark for Cricket Excited Actions Understanding](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Hussain_Medium_Scale_Benchmark_for_Cricket_Excited_Actions_Understanding_CVPRW_2024_paper.html)**
-- *Venue:* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) WorkshopsAt: Seattle Convention Center in Seattle, Washington, U.S.A.
+- *Venue:* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops: Seattle Convention Center in Seattle, Washington, U.S.A.
 - **[Attention-Based Deep Learning Framework for Action Recognition in a Dark Environment](https://hcisj.com/articles/?HCIS202414004)**
 - *Venue:* Human-centric Computing and Information Sciences.
 - **[Optimized deep learning-based cricket activity focused network and medium scale benchmark](https://www.sciencedirect.com/science/article/pii/S1110016823003368?via%3Dihub)**
