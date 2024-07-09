@@ -26,8 +26,8 @@ Here are some highlights of my recent projects and research work:
 - *Venue:* Human-centric Computing and Information Sciences.
 - **[Optimized deep learning-based cricket activity focused network and medium scale benchmark](https://www.sciencedirect.com/science/article/pii/S1110016823003368?via%3Dihub)**
 - *Venue:* Alexandria Engineering Journal, Elsevier.
-- **[CT-NET: A Novel Convolutional Transformer-Based Network for Short-Term Solar Energy Forecasting Using Climatic Information](https://www.techscience.com/csse/v47n2/53634)**: Published at Computer Systems Science and Engineering.
-- *Venue:* Journal or Conference Name.
+- **[CT-NET: A Novel Convolutional Transformer-Based Network for Short-Term Solar Energy Forecasting Using Climatic Information](https://www.techscience.com/csse/v47n2/53634)**
+- *Venue:* Computer Systems Science and Engineering.
 ---
 
 Feel free to explore my repositories and get in touch if you'd like to discuss potential collaborations or have any questions about my work.
