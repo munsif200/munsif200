@@ -10,7 +10,7 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Augmented Reality**
 
 ## Publications
-- **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications] https://ieeexplore.ieee.org/abstract/document/10636303)**
+- **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications] (https://ieeexplore.ieee.org/abstract/document/10636303)**
 - *Venue:* IEEE Transactions on Industrial Informatics.
 - **[Contextual visual and motion salient fusion framework for action recognition in dark environments](https://www.sciencedirect.com/science/article/pii/S0950705124011146)**
 - *Venue:* Knowledge-Based Systems.
