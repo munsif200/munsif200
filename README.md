@@ -10,6 +10,10 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Augmented Reality**
 
 ## Publications
+- **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications] https://ieeexplore.ieee.org/abstract/document/10636303)**
+- *Venue:* IEEE Transactions on Industrial Informatics.
+- **[Contextual visual and motion salient fusion framework for action recognition in dark environments](https://www.sciencedirect.com/science/article/pii/S0950705124011146)**
+- *Venue:* Knowledge-Based Systems.
 - **[Medium Scale Benchmark for Cricket Excited Actions Understanding](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Hussain_Medium_Scale_Benchmark_for_Cricket_Excited_Actions_Understanding_CVPRW_2024_paper.html)**
 - *Venue:* IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops: Seattle Convention Center in Seattle, Washington, U.S.A.
 - **[Attention-Based Deep Learning Framework for Action Recognition in a Dark Environment](https://hcisj.com/articles/?HCIS202414004)**
