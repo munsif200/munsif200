@@ -8,6 +8,7 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Virtual Reality**
 - **Advanced Machine Learning**
 - **Augmented Reality**
+- **Materials Informatics**
 
 ## Publications
 - **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications](https://ieeexplore.ieee.org/abstract/document/10636303)**
