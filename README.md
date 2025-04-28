@@ -11,6 +11,8 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Materials Informatics**
 
 ## Publications
+- **[Proximal Policy Optimization for Collision Avoidance and Motion Planning in Autonomous Vehicles: A Mathematical Modeling Perspective](https://www.worldscientific.com/doi/abs/10.1142/S0218348X25401711)**
+- *Venue:* Fractals, Complex Geometry, Patterns, and Scaling in Nature and Society.
 - **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications](https://ieeexplore.ieee.org/abstract/document/10636303)**
 - *Venue:* IEEE Transactions on Industrial Informatics.
 - **[Contextual visual and motion salient fusion framework for action recognition in dark environments](https://www.sciencedirect.com/science/article/pii/S0950705124011146)**
