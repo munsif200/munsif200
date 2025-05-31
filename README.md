@@ -11,6 +11,8 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Materials Informatics**
 
 ## Publications
+- **[Hierarchical Attention-based Framework for Enhanced Prediction and Optimization of Organic and Inorganic Material Synthesis](https://linkinghub.elsevier.com/retrieve/pii/S1474034625003556)**
+- *Venue:* Advanced Engineering Informatics.
 - **[Proximal Policy Optimization for Collision Avoidance and Motion Planning in Autonomous Vehicles: A Mathematical Modeling Perspective](https://www.worldscientific.com/doi/abs/10.1142/S0218348X25401711)**
 - *Venue:* Fractals, Complex Geometry, Patterns, and Scaling in Nature and Society.
 - **[Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications](https://ieeexplore.ieee.org/abstract/document/10636303)**
