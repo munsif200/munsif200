@@ -11,6 +11,8 @@ Hello! I'm, currently working as a researcher at Intiliginat Media Laboratory in
 - **Materials Informatics**
 
 ## Publications
+- **[Action understanding in low-light and pitch-dark conditions: A comprehensive survey](https://www.sciencedirect.com/science/article/pii/S0952197625020044)**
+- *Venue:* Engineering Applications of Artificial Intelligence.
 - **[Hierarchical Attention-based Framework for Enhanced Prediction and Optimization of Organic and Inorganic Material Synthesis](https://linkinghub.elsevier.com/retrieve/pii/S1474034625003556)**
 - *Venue:* Advanced Engineering Informatics.
 - **[Proximal Policy Optimization for Collision Avoidance and Motion Planning in Autonomous Vehicles: A Mathematical Modeling Perspective](https://www.worldscientific.com/doi/abs/10.1142/S0218348X25401711)**
