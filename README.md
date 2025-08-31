@@ -29,12 +29,10 @@ Leading multiple research projects in AI, computer vision, and materials informa
 
 ### � GitHub Activity
 - 🔭 Currently working on: **AI-powered computer vision research projects**
-- 🌱 Learning: **Advanced deep learning architectures and VR/AR technologies**
 - 👯 Looking to collaborate on: **Computer vision, materials informatics, and educational VR projects**
 - 🤔 Open to: **Research collaborations and academic partnerships**
 - � Ask me about: **Computer Vision, Deep Learning, VR/AR, Materials Informatics**
 - 📫 Reach me: **munsif3797@gmail.com**
-- ⚡ Fun fact: **I combine AI research with immersive technologies to create innovative educational solutions**
 
 ### 🛠️ Technical Stack
 
@@ -64,7 +62,7 @@ Leading multiple research projects in AI, computer vision, and materials informa
 [![Email](https://img.shields.io/badge/Email-munsif3797@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:munsif3797@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-munsif200-black?style=for-the-badge&logo=github)](https://github.com/munsif200)
 
-**� Location:** Seoul, South Korea  
+**� Location:** Sejong University, Seoul, South Korea  
 **🏛️ Institution:** Intelligent Media Laboratory, Sejong University  
 **� Research Areas:** Computer Vision • Deep Learning • VR/AR • Materials Informatics
 
