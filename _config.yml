@@ -7,24 +7,28 @@ baseurl: "/munsif200"
 # Author Information
 author:
   name: "Dr. Muhammad Munsif"
-  bio: "Researcher at Intelligent Media Laboratory, Seoul, South Korea. PhD in Computer Science specializing in Computer Vision, Deep Learning, VR/AR, and Intelligent Transportation Systems"
-  email: "munsif3797@gmail.com"
+  avatar: "/assets/images/Munsif.jpg"
+  bio: "PhD in Computer Science | Researcher at Intelligent Media Laboratory, Seoul, South Korea"
   location: "Seoul, South Korea"
+  email: "munsif3797@gmail.com"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:munsif3797@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=YOUR_ID"
+      url: "https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en&authuser=1"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/muhammadmunsif/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-username"
+      url: "https://github.com/munsif200"
 
 # Theme and Build Settings
-theme: minima
-# remote_theme: "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin: "default"
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 
 # Site Settings
 timezone: "UTC"
@@ -97,6 +101,18 @@ collections:
     permalink: /:collection/:name/
 
 # Navigation
+main:
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Skills"
+    url: /skills/
+  - title: "Contact"
+    url: /contact/
+
 header_pages:
   - _pages/about.md
   - _pages/skills.md

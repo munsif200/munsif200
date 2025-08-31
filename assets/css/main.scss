@@ -1,0 +1,150 @@
+---
+---
+
+/* Custom styles for Dr. Muhammad Munsif's academic website */
+
+/* Header styles */
+.page__hero--overlay {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Fix for missing header image */
+.page__hero--overlay .page__hero-image {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Author profile styling */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Feature row styling */
+.feature__item h2 {
+  color: #444;
+  font-weight: 600;
+}
+
+.feature__item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Button styling */
+.btn--primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn--primary:hover {
+  background-color: #5a6fd8;
+  border-color: #5a6fd8;
+}
+
+.btn--secondary {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
+
+/* Publications list styling */
+.publications-list {
+  margin-top: 2em;
+}
+
+.publications-list h3 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.publications-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publications-list li {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+}
+
+/* Skills section styling */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.skill-item {
+  background: #fff;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Contact form styling */
+.contact-form {
+  max-width: 600px;
+  margin: 2em auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feature__wrapper {
+    flex-direction: column;
+  }
+  
+  .feature__item {
+    margin-bottom: 2em;
+  }
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  font-family: "Open Sans", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Academic paper links */
+.paper-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.paper-link:hover {
+  color: #5a6fd8;
+  text-decoration: underline;
+}
+
+/* Research highlights */
+.research-highlight {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2em;
+  border-radius: 8px;
+  margin: 2em 0;
+}
+
+.research-highlight h3 {
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.research-highlight ul {
+  columns: 2;
+  column-gap: 2em;
+}
+
+@media (max-width: 768px) {
+  .research-highlight ul {
+    columns: 1;
+  }
+}
