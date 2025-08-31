@@ -299,6 +299,99 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   margin-bottom: 0.5em;
 }
 
+/* Lightbox Styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+}
+
+.lightbox-content {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.lightbox-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.lightbox-close:hover {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.1);
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.lightbox-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.lightbox-description {
+  font-size: 0.9em;
+  opacity: 0.9;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.02);
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .main-layout {
@@ -350,7 +443,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#publications">Publications</a>
-        <a href="#patents">Patents</a>
+        <a href="#patents">Activities</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#gallery">Photo Gallery</a>
@@ -413,20 +506,28 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <h2>Technical Expertise</h2>
         <div class="content-grid">
           <div class="content-card">
-            <h3>🧠 Machine Learning & AI</h3>
-            <p>Deep Learning, Neural Networks, Computer Vision, Pattern Recognition, Medical Image Analysis</p>
+            <h3>🔍 Computer Vision</h3>
+            <p>Action recognition in challenging lighting conditions, object detection, image segmentation, scene understanding, and pattern analysis using advanced neural networks.</p>
           </div>
           <div class="content-card">
-            <h3>💻 Programming Languages</h3>
-            <p>Python, MATLAB, C++, JavaScript, R, SQL</p>
+            <h3>🧠 Deep Learning & AI</h3>
+            <p>Tubelet networks, hierarchical attention mechanisms, convolutional neural networks, and optimization techniques for real-world deployment.</p>
           </div>
           <div class="content-card">
-            <h3>🛠️ Frameworks & Tools</h3>
-            <p>TensorFlow, PyTorch, OpenCV, Keras, Scikit-learn, Unity, Unreal Engine</p>
+            <h3>� Programming & Tools</h3>
+            <p>Python, MATLAB, TensorFlow, PyTorch, OpenCV, Keras, Scikit-learn, Unity, Unreal Engine</p>
           </div>
           <div class="content-card">
-            <h3>🌐 Emerging Technologies</h3>
-            <p>Virtual Reality (VR), Augmented Reality (AR), IoT, Cloud Computing, Edge Computing</p>
+            <h3>🚗 Intelligent Transportation</h3>
+            <p>Autonomous vehicle safety systems, collision avoidance using proximal policy optimization, sensor fusion, and motion planning algorithms.</p>
+          </div>
+          <div class="content-card">
+            <h3>🥽 VR/AR Technologies</h3>
+            <p>Educational applications, serious games for science education, immersive training environments, and virtual reality development.</p>
+          </div>
+          <div class="content-card">
+            <h3>⚗️ Materials Informatics</h3>
+            <p>AI-accelerated materials discovery, synthesis prediction and optimization using machine learning and attention-based frameworks.</p>
           </div>
         </div>
       </section>
@@ -436,45 +537,54 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <h2>Recent Publications</h2>
         
         <div class="publication-item">
-          <div class="publication-title">Advanced Computer Vision Techniques for Medical Image Analysis</div>
-          <div class="publication-details">Dr. Muhammad Munsif, et al. | Journal of Medical Imaging | 2024</div>
-          <a href="#" class="publication-link">View Publication →</a>
+          <div class="publication-title">Action understanding in low-light and pitch-dark conditions: A comprehensive survey</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Engineering Applications of Artificial Intelligence | 2025</div>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0952197625020044" class="publication-link" target="_blank">View Publication →</a>
         </div>
 
         <div class="publication-item">
-          <div class="publication-title">Deep Learning Approaches for Intelligent Transportation Systems</div>
-          <div class="publication-details">Dr. Muhammad Munsif, et al. | IEEE Transactions on Intelligent Transportation | 2024</div>
-          <a href="#" class="publication-link">View Publication →</a>
+          <div class="publication-title">Hierarchical Attention-based Framework for Enhanced Prediction and Optimization of Organic and Inorganic Material Synthesis</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Advanced Engineering Informatics | 2025</div>
+          <a href="https://linkinghub.elsevier.com/retrieve/pii/S1474034625003556" class="publication-link" target="_blank">View Publication →</a>
         </div>
 
         <div class="publication-item">
-          <div class="publication-title">Virtual Reality Applications in Education and Training</div>
-          <div class="publication-details">Dr. Muhammad Munsif, et al. | International Conference on VR/AR | 2023</div>
-          <a href="#" class="publication-link">View Publication →</a>
+          <div class="publication-title">Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | IEEE Transactions on Industrial Informatics | 2024</div>
+          <a href="https://ieeexplore.ieee.org/abstract/document/10636303" class="publication-link" target="_blank">View Publication →</a>
         </div>
 
-        <div class="publication-item">
-          <div class="publication-title">Enhanced Object Detection Using Multi-Scale Feature Fusion</div>
-          <div class="publication-details">Dr. Muhammad Munsif, et al. | Computer Vision and Pattern Recognition | 2023</div>
-          <a href="#" class="publication-link">View Publication →</a>
+        <div style="text-align: center; margin-top: 2em;">
+          <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en&authuser=1" target="_blank" 
+             style="background: #667eea; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500;">
+             📖 View All Publications on Google Scholar
+          </a>
         </div>
       </section>
 
       <!-- PATENTS SECTION -->
       <section id="patents" class="section">
-        <h2>Patents & Innovations</h2>
+        <h2>Professional Activities & Recognition</h2>
         <div class="content-grid">
           <div class="content-card">
-            <h3>🔬 Medical Imaging Patent</h3>
-            <p><strong>Patent ID:</strong> Pending<br>
-            <strong>Title:</strong> Advanced AI-based Medical Image Analysis System<br>
-            <strong>Status:</strong> Under Review</p>
+            <h3>� Peer Review Services</h3>
+            <p><strong>12+ Verified Reviews</strong><br>
+            Active reviewer for top-tier journals and conferences in computer vision, AI, and transportation systems including IEEE Transactions and major conference proceedings.</p>
           </div>
           <div class="content-card">
-            <h3>🚗 Transportation System Patent</h3>
-            <p><strong>Patent ID:</strong> Pending<br>
-            <strong>Title:</strong> Intelligent Traffic Management Using Computer Vision<br>
-            <strong>Status:</strong> Filed</p>
+            <h3>🏆 Research Grants & Funding</h3>
+            <p><strong>Multiple Funding Sources</strong><br>
+            Successfully secured research funding from Seoul R&D Program, Ministry of Education South Korea, and HCR Endowment Fund KPK for various AI and VR projects.</p>
+          </div>
+          <div class="content-card">
+            <h3>🎯 Research Focus Areas</h3>
+            <p><strong>Specialized Expertise</strong><br>
+            Action recognition in challenging lighting conditions, materials informatics, autonomous vehicle safety, and educational VR applications.</p>
+          </div>
+          <div class="content-card">
+            <h3>🌐 International Collaboration</h3>
+            <p><strong>Global Research Network</strong><br>
+            Collaborating with international research teams and contributing to cutting-edge research in computer vision and deep learning applications.</p>
           </div>
         </div>
       </section>
@@ -484,20 +594,28 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <h2>Featured Projects</h2>
         <div class="content-grid">
           <div class="content-card">
-            <h3>🏥 Medical Image Analysis Platform</h3>
-            <p>Developed an AI-powered platform for automated medical image analysis, improving diagnostic accuracy by 25%.</p>
+            <h3>🔍 Action Recognition in Dark Conditions</h3>
+            <p>Developed a comprehensive framework for action understanding in low-light and pitch-dark conditions using efficient tubelet slow-fast networks for industrial applications.</p>
           </div>
           <div class="content-card">
-            <h3>🎮 VR Training Simulator</h3>
-            <p>Created an immersive VR training environment for medical professionals using Unity and advanced 3D modeling.</p>
+            <h3>⚗️ Materials Synthesis Optimization</h3>
+            <p>Created a hierarchical attention-based framework for enhanced prediction and optimization of organic and inorganic material synthesis using deep learning.</p>
           </div>
           <div class="content-card">
-            <h3>🚦 Smart Traffic System</h3>
-            <p>Implemented an intelligent traffic management system using computer vision and machine learning algorithms.</p>
+            <h3>� Intelligent Transportation Systems</h3>
+            <p>Research and development of AI-powered autonomous vehicle safety systems, including collision avoidance using proximal policy optimization.</p>
           </div>
           <div class="content-card">
-            <h3>🤖 Deep Learning Framework</h3>
-            <p>Developed a custom deep learning framework optimized for medical image processing and analysis.</p>
+            <h3>🎮 VR-based Learning Strategy for Children</h3>
+            <p>Virtual reality-based educational applications and immersive learning environments for children. Funded by HCR Endowment Fund, KPK.</p>
+          </div>
+          <div class="content-card">
+            <h3>🌾 Precision Agriculture for Disease Prevention</h3>
+            <p>AI-driven solutions for agricultural disease prevention and crop monitoring. Duration: Jan 2022 - Jun 2023. Funded by Ministry of Education, South Korea.</p>
+          </div>
+          <div class="content-card">
+            <h3>🏭 Industrial Anomaly Detection System</h3>
+            <p>Deep learning-based anomaly detection and predictive maintenance management system. Funded by Seoul R&D Program.</p>
           </div>
         </div>
       </section>
@@ -506,15 +624,21 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
       <section id="experience" class="section">
         <h2>Professional Experience</h2>
         <div class="content-card">
-          <h3>🔬 Research Scholar | Intelligent Media Laboratory</h3>
-          <p><strong>2020 - Present</strong><br>
-          Conducting advanced research in computer vision, deep learning, and VR/AR technologies. Leading multiple research projects and collaborating with international research teams.</p>
+          <h3>🔬 Research Assistant | Intelligent Media Laboratory, Sejong University</h3>
+          <p><strong>Sep 2021 - Present | Seoul, South Korea</strong><br>
+          Research and development of various industrial and research projects in AI, computer vision, and materials informatics. Leading multiple research projects in action recognition, autonomous systems, and deep learning applications.</p>
         </div>
         
         <div class="content-card">
-          <h3>👨‍🏫 Graduate Teaching Assistant</h3>
-          <p><strong>2019 - 2022</strong><br>
-          Assisted in teaching computer science courses including Machine Learning, Computer Vision, and Data Structures. Mentored undergraduate students in research projects.</p>
+          <h3>👨‍💼 Lab Coordinator and Research | Digital Image Processing Lab, Islamia College Peshawar</h3>
+          <p><strong>Jan 2019 - Aug 2021 | Peshawar, Pakistan</strong><br>
+          Project work handling, guidance of computer vision research students, and lecture preparation assistance. Supervised undergraduate research projects and managed laboratory operations.</p>
+        </div>
+
+        <div class="content-card">
+          <h3>🔬 Research Assistant | Digital Image Processing Lab, Islamia College Peshawar</h3>
+          <p><strong>Sep 2017 - Dec 2018 | Peshawar, Pakistan</strong><br>
+          Research and development in various computer vision and image processing projects. Contributed to foundational research in computer vision applications.</p>
         </div>
       </section>
 
@@ -529,7 +653,9 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <div class="gallery-grid">
           <div class="gallery-item">
             <img src="/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg" 
-                 alt="2022 - With Professor" class="gallery-image">
+                 alt="2022 - Academic Collaboration with Professor" 
+                 class="gallery-image" 
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg', '2022 - Academic Collaboration', 'Important meeting and collaboration with my professor, discussing research directions and academic milestones during my PhD journey.')">
             <div class="gallery-caption">
               <div class="gallery-year">2022</div>
               <div class="gallery-title">Academic Collaboration</div>
@@ -542,7 +668,9 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
           <div class="gallery-item">
             <img src="/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg" 
-                 alt="2023 - With Professor" class="gallery-image">
+                 alt="2023 - Research Progress Meeting with Professor" 
+                 class="gallery-image"
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg', '2023 - Research Progress Meeting', 'Continuing academic collaboration and discussing research progress, publications, and future research directions in computer vision and deep learning.')">
             <div class="gallery-caption">
               <div class="gallery-year">2023</div>
               <div class="gallery-title">Research Progress Meeting</div>
@@ -555,7 +683,9 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
           <div class="gallery-item">
             <img src="/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg" 
-                 alt="2024 - Dinner with Professor" class="gallery-image">
+                 alt="2024 - Celebratory Dinner with Professor" 
+                 class="gallery-image"
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg', '2024 - Celebratory Dinner', 'A special dinner celebrating research achievements, successful publications, and marking important milestones in my PhD research journey.')">
             <div class="gallery-caption">
               <div class="gallery-year">2024</div>
               <div class="gallery-title">Celebratory Dinner</div>
@@ -568,7 +698,9 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
           <div class="gallery-item">
             <img src="/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg" 
-                 alt="2024 - KingPC Conference" class="gallery-image">
+                 alt="2024 - KingPC Conference Presentation" 
+                 class="gallery-image"
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg', '2024 - KingPC Conference', 'Presenting research findings at the KingPC Conference, sharing knowledge with the academic community and networking with fellow researchers.')">
             <div class="gallery-caption">
               <div class="gallery-year">2024</div>
               <div class="gallery-title">KingPC Conference</div>
@@ -616,3 +748,51 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
     </div>
   </div>
 </div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div class="lightbox-caption" id="lightbox-caption">
+    <div class="lightbox-title" id="lightbox-title"></div>
+    <div class="lightbox-description" id="lightbox-description"></div>
+  </div>
+</div>
+
+<script>
+function openLightbox(imageSrc, title, description) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxTitle = document.getElementById('lightbox-title');
+  const lightboxDescription = document.getElementById('lightbox-description');
+  
+  lightboxImg.src = imageSrc;
+  lightboxTitle.textContent = title;
+  lightboxDescription.textContent = description;
+  
+  lightbox.style.display = 'block';
+  document.body.style.overflow = 'hidden'; // Prevent background scrolling
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.style.display = 'none';
+  document.body.style.overflow = 'auto'; // Restore scrolling
+}
+
+// Close lightbox when pressing Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeLightbox();
+  }
+});
+
+// Prevent lightbox from closing when clicking on the image
+document.getElementById('lightbox-img').addEventListener('click', function(event) {
+  event.stopPropagation();
+});
+
+document.getElementById('lightbox-caption').addEventListener('click', function(event) {
+  event.stopPropagation();
+});
+</script>
