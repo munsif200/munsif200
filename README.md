@@ -2,9 +2,10 @@
 
 Dr. Muhammad Munsif is a dedicated researcher specializing in:
 - **Computer Vision** & **Deep Learning**
+- **Action Recognition** & **Machine Learning**
 - **Virtual Reality (VR)** & **Augmented Reality (AR)**
 - **Materials Informatics**
-- **Action Recognition** & **Machine Learning**
+
 
 
 ### 🔬 Research Focus
