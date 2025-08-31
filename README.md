@@ -48,8 +48,6 @@ Leading multiple research projects in AI, computer vision, and materials informa
 **Programming Languages:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 **AI/ML Frameworks:**
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -59,7 +57,6 @@ Leading multiple research projects in AI, computer vision, and materials informa
 
 **Tools & Technologies:**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 
@@ -83,12 +80,12 @@ Leading multiple research projects in AI, computer vision, and materials informa
 ### � Current Focus & Goals
 
 - 🎯 **Research:** Advancing AI applications in computer vision and materials science
-- 🤝 **Collaboration:** Open to academic partnerships and industry projects
+- 🤝 **Collaboration:** Open to academic partnerships and projects
 - 📚 **Education:** Contributing to the global research community through publications and open-source projects
 - 🌐 **Innovation:** Bridging the gap between theoretical research and practical applications
 
 ---
 
-**⭐ If you find my work interesting, please consider starring this repository!**
+**⭐ If you find my work interesting, please consider starring my repositories!**
 
 *Built with ❤️ for academic excellence and research visibility*
