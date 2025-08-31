@@ -583,36 +583,25 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
               </tr>
             </thead>
             <tbody>
-              <!-- EU Research Program -->
+              <!-- Current/Ongoing Projects (Latest dates first) -->
+              
+              <!-- Jul 2024 - Aug 2025 -->
               <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
                 <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
-                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
-                  <strong style="color: #1e293b; font-size: 1.05em;">Bridging the Early Diagnosis and Treatment Gap of Brain Diseases</strong><br>
-                  <span style="color: #64748b; font-size: 0.95em;">Smart, Connected, Proactive and Evidence-based Technological Interventions for neurological health monitoring and early intervention systems.</span>
-                </td>
-                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">TBD</td>
-                <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇪🇺 European Union</span><br>
-                  <span style="color: #64748b; font-size: 0.85em;">Research & Innovation Program</span>
-                </td>
-              </tr>
-              
-              <!-- National Research Foundation of Korea Projects -->
-              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
-                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
                   <strong style="color: #1e293b; font-size: 1.05em;">Building a SynchroLab Data Cloud-Based Solid Electrolyte Materials Hub</strong><br>
                   <span style="color: #64748b; font-size: 0.95em;">Advanced materials research platform for solid electrolyte development and optimization using cloud-based data analytics.</span>
                 </td>
                 <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Jul 2024 - Aug 2025</td>
                 <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">�� NRF Korea</span><br>
                   <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
                 </td>
               </tr>
               
-              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
-                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+              <!-- Mar 2023 - Feb 2026 -->
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
                   <strong style="color: #1e293b; font-size: 1.05em;">Abnormal Behavior Situational Awareness Technology</strong><br>
                   <span style="color: #64748b; font-size: 0.95em;">Crime/Accident Prevention in Connected Vision Environments using AI-powered surveillance and behavioral analysis systems.</span>
@@ -624,6 +613,21 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
                 </td>
               </tr>
               
+              <!-- Jan 2023 - Present -->
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Connected Vision Systems</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Advanced computer vision networks for real-time monitoring, surveillance, and intelligent video analytics applications.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Jan 2023 - Present</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
+              </tr>
+              
+              <!-- May 2023 - Apr 2024 (Completed) -->
               <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
                 <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
@@ -637,33 +641,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
                 </td>
               </tr>
               
-              <!-- Other Projects -->
-              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
-                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
-                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
-                  <strong style="color: #1e293b; font-size: 1.05em;">Open Platform Technology for Autonomous Energy Network Components</strong><br>
-                  <span style="color: #64748b; font-size: 0.95em;">Smart grid and autonomous energy management systems for sustainable power distribution and consumption optimization.</span>
-                </td>
-                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Sep 2021 - Present</td>
-                <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
-                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
-                </td>
-              </tr>
-              
-              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
-                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
-                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
-                  <strong style="color: #1e293b; font-size: 1.05em;">Connected Vision Systems</strong><br>
-                  <span style="color: #64748b; font-size: 0.95em;">Advanced computer vision networks for real-time monitoring, surveillance, and intelligent video analytics applications.</span>
-                </td>
-                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Jan 2023 - Present</td>
-                <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
-                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
-                </td>
-              </tr>
-              
+              <!-- Jan 2023 - Jun 2023 (Completed) -->
               <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
                 <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
@@ -672,11 +650,12 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
                 </td>
                 <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">Jan 2023 - Jun 2023</td>
                 <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #7c3aed, #a855f7); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🏢 Seoul R&D</span><br>
+                  <span style="background: linear-gradient(135deg, #7c3aed, #a855f7); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">� Seoul R&D</span><br>
                   <span style="color: #64748b; font-size: 0.85em;">Seoul R&D Program</span>
                 </td>
               </tr>
               
+              <!-- Jan 2022 - Jun 2023 (Completed) -->
               <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
                 <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
@@ -685,11 +664,42 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
                 </td>
                 <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">Jan 2022 - Jun 2023</td>
                 <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #059669, #10b981); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🎓 Ministry of Education</span><br>
+                  <span style="background: linear-gradient(135deg, #059669, #10b981); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">� Ministry of Education</span><br>
                   <span style="color: #64748b; font-size: 0.85em;">South Korea</span>
                 </td>
               </tr>
               
+              <!-- Sep 2021 - Present (Long-running project) -->
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Open Platform Technology for Autonomous Energy Network Components</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Smart grid and autonomous energy management systems for sustainable power distribution and consumption optimization.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Sep 2021 - Present</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰� NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
+              </tr>
+              
+              <!-- Projects without specific dates (Bottom section) -->
+              
+              <!-- EU Brain Disease Research -->
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Bridging the Early Diagnosis and Treatment Gap of Brain Diseases</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Smart, Connected, Proactive and Evidence-based Technological Interventions for neurological health monitoring and early intervention systems.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">TBD</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇪� European Union</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">Research & Innovation Program</span>
+                </td>
+              </tr>
+              
+              <!-- VR Learning for Children -->
               <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
                 <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
                 <td style="padding: 1.5em 1.2em; line-height: 1.6;">
@@ -700,19 +710,6 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
                 <td style="padding: 1.5em 1.2em;">
                   <span style="background: linear-gradient(135deg, #ea580c, #f97316); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🏛️ HCR Endowment</span><br>
                   <span style="color: #64748b; font-size: 0.85em;">KPK, Pakistan</span>
-                </td>
-              </tr>
-              
-              <tr style="background: #f8fafc; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
-                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
-                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
-                  <strong style="color: #1e293b; font-size: 1.05em;">Intelligent Transportation Systems</strong><br>
-                  <span style="color: #64748b; font-size: 0.95em;">AI-powered autonomous vehicle safety systems, collision avoidance using proximal policy optimization, and smart traffic management.</span>
-                </td>
-                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Ongoing</td>
-                <td style="padding: 1.5em 1.2em;">
-                  <span style="background: linear-gradient(135deg, #1f2937, #374151); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🚗 Multiple Agencies</span><br>
-                  <span style="color: #64748b; font-size: 0.85em;">Various Funding Sources</span>
                 </td>
               </tr>
             </tbody>
