@@ -13,7 +13,18 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   width: 100vw; 
   min-height: 100vh; 
   margin: 0; 
-  padding: 0; 
+  pad              <div class          <div          </div>
+          <div class="content-card">
+            <h3>🌐 International Collaboratih3>content-card">
+            <h3>🎓 Awards & Scholarships</h3>content-card">
+            <h3>📋 Peer Review Services</h3>
+            <p><strong>100+ Verified Reviews</strong><br>
+            Active reviewer for top-tier journals and conferences including IEEE Transactions on Industrial Informatics, Knowledge-Based Systems, Engineering Applications of Artificial Intelligence, Advanced Engineering Informatics, Human-centric Computing and Information Sciences, Alexandria Engineering Journal, Virtual Reality & Intelligent Hardware, Computer Systems Science and Engineering, Journal of Computational Design and Engineering, Fractals, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, and other major international conferences.</p>
+          </div> <div class="content-card">
+            <h3>📋 Peer Review Services</h3>
+            <p><strong>100+ Verified Reviews</strong><br>
+            Active reviewer for top-tier journals and conferences including IEEE Transactions on Industrial Informatics, Knowledge-Based Systems, Engineering Applications of AI, Advanced Engineering Informatics, Human-centric Computing and Information Sciences, Alexandria Engineering Journal, Virtual Reality & Intelligent Hardware, Computer Systems Science and Engineering, Journal of Computational Design and Engineering, and Fractals.</p>
+          </div> 0; 
   position: relative;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
@@ -71,83 +82,19 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
 /* MAIN LAYOUT GRID */
 .main-layout { 
-  display: grid; 
-  grid-template-columns: 350px 1fr; 
-  gap: 0; 
+  display: block; 
   min-height: 100vh; 
   margin-top: 70px; 
-}
-
-/* LEFT SIDEBAR */
-.sidebar { 
-  background: linear-gradient(180deg, #1e293b 0%, #334155 100%); 
-  color: white; 
-  padding: 3em 2em; 
-  position: sticky; 
-  top: 70px; 
-  height: calc(100vh - 70px); 
-  overflow-y: auto;
-  box-shadow: 2px 0 20px rgba(0,0,0,0.1);
-}
-
-.profile-section { 
-  text-align: center; 
-  margin-bottom: 2em; 
-}
-
-.profile-photo { 
-  width: 200px; 
-  height: 200px; 
-  border-radius: 50%; 
-  border: 4px solid rgba(255,255,255,0.2); 
-  object-fit: cover; 
-  margin: 0 auto 1.5em; 
-  display: block;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-}
-
-.profile-name { 
-  font-size: 1.8em; 
-  font-weight: bold; 
-  margin-bottom: 0.5em; 
-}
-
-.profile-title { 
-  font-size: 1em; 
-  opacity: 0.9; 
-  margin-bottom: 2em; 
-  line-height: 1.4;
-}
-
-.sidebar-links { 
-  display: flex; 
-  flex-direction: column; 
-  gap: 1em; 
-}
-
-.sidebar-links a { 
-  background: rgba(255,255,255,0.1); 
-  color: white; 
-  padding: 1em 1.5em; 
-  text-decoration: none; 
-  border-radius: 10px; 
-  font-weight: 500; 
-  transition: all 0.3s; 
-  border: 1px solid rgba(255,255,255,0.1);
-}
-
-.sidebar-links a:hover { 
-  background: rgba(255,255,255,0.2); 
-  transform: translateX(5px); 
-  border-color: rgba(255,255,255,0.3);
 }
 
 /* MAIN CONTENT AREA */
 .content-area { 
   background: white; 
-  padding: 3em; 
+  padding: 3em 5%; 
   min-height: calc(100vh - 70px);
   overflow-y: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hero-section {
@@ -397,26 +344,9 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  .main-layout {
-    grid-template-columns: 300px 1fr;
-  }
-}
-
 @media (max-width: 768px) {
-  .main-layout {
-    grid-template-columns: 1fr;
-  }
-  
-  .sidebar {
-    position: relative;
-    top: 0;
-    height: auto;
-    padding: 2em;
-  }
-  
   .content-area {
-    padding: 2em;
+    padding: 2em 3%;
   }
   
   .nav-content {
@@ -458,23 +388,6 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
   <!-- MAIN LAYOUT -->
   <div class="main-layout">
-    <!-- LEFT SIDEBAR -->
-    <div class="sidebar">
-      <div class="profile-section">
-        <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif" class="profile-photo">
-        <div class="profile-name">Dr. Muhammad Munsif</div>
-        <div class="profile-title">PhD in Computer Science<br>Computer Vision & Deep Learning Researcher</div>
-      </div>
-      
-      <div class="sidebar-links">
-        <a href="mailto:munsif3797@gmail.com">📧 Email</a>
-        <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en&authuser=1" target="_blank">🎓 Google Scholar</a>
-        <a href="https://www.linkedin.com/in/muhammadmunsif/" target="_blank">💼 LinkedIn</a>
-        <a href="https://github.com/munsif200" target="_blank">💻 GitHub</a>
-        <a href="https://www.researchgate.net/profile/Muhammad-Munsif-2" target="_blank">🔬 ResearchGate</a>
-      </div>
-    </div>
-
     <!-- MAIN CONTENT AREA -->
     <div class="content-area">
       <!-- HERO SECTION -->
@@ -504,29 +417,6 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           <div class="content-card">
             <h3>📍 Current Position</h3>
             <p>Research Assistant at Intelligent Media Laboratory, Daeyang AI Center, Sejong University, specializing in advanced AI applications and cutting-edge technologies</p>
-          </div>
-        </div>
-        
-        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #667eea; margin-top: 2em;">
-          <h3 style="color: #1e293b; margin-bottom: 1em;">🏆 Awards & Recognition</h3>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5em;">
-            <div>
-              <h4>🎓 Fully Funded PhD Scholarship (2021)</h4>
-              <p>Sejong University Scholarship Program for Master's and Ph.D. degree</p>
-            </div>
-            <div>
-              <h4>🎓 Fully Funded Bachelor's Scholarship (2019)</h4>
-              <p>Higher Education Commission of Pakistan scholarship program</p>
-            </div>
-          </div>
-        </div>
-
-        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #28a745; margin-top: 2em;">
-          <h3 style="color: #1e293b; margin-bottom: 1em;">🏛️ Professional Memberships</h3>
-          <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-            <span style="background: #667eea; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">IEEE Member</span>
-            <span style="background: #28a745; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">Active Researcher</span>
-            <span style="background: #dc3545; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">Peer Reviewer</span>
           </div>
         </div>
       </section>
@@ -654,19 +544,39 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             Active reviewer for top-tier journals and conferences in computer vision, AI, and transportation systems including IEEE Transactions and major conference proceedings.</p>
           </div>
           <div class="content-card">
-            <h3>🏆 Research Grants & Funding</h3>
-            <p><strong>Multiple Funding Sources</strong><br>
-            Successfully secured research funding from Seoul R&D Program, Ministry of Education South Korea, and HCR Endowment Fund KPK for various AI and VR projects.</p>
+            <h3>🔬 Research Projects Participation</h3>
+            <p><strong>Active Project Involvement</strong><br>
+            • Brain Disease Early Diagnosis & Treatment (European Union Research Program)<br>
+            • Autonomous Energy Network Components (National Research Foundation of Korea)<br>
+            • Connected Vision Systems for Crime Prevention (NRF Korea)<br>
+            • Industrial Anomaly Detection System (Seoul R&D Program)<br>
+            • Precision Agriculture for Disease Prevention (Ministry of Education, South Korea)<br>
+            • VR-based Learning Strategy for Children (HCR Endowment Fund, KPK)<br>
+            • Materials Hub Development Platform (NRF Korea)</p>
           </div>
           <div class="content-card">
-            <h3>🎯 Research Focus Areas</h3>
+            <h3>� Awards & Scholarships</h3>
+            <p><strong>Fully Funded PhD Scholarship (2021)</strong><br>
+            Sejong University Scholarship Program for Master's and Ph.D. degree<br><br>
+            <strong>Fully Funded Bachelor's Scholarship (2019)</strong><br>
+            Higher Education Commission of Pakistan scholarship program</p>
+          </div>
+          <div class="content-card">
+            <h3>🏛️ Professional Memberships</h3>
+            <p><strong>Active Professional Affiliations</strong><br>
+            <span style="display: inline-block; background: #667eea; color: white; padding: 0.3em 0.8em; border-radius: 15px; font-size: 0.9em; margin: 0.2em;">IEEE Member</span>
+            <span style="display: inline-block; background: #28a745; color: white; padding: 0.3em 0.8em; border-radius: 15px; font-size: 0.9em; margin: 0.2em;">Active Researcher</span>
+            <span style="display: inline-block; background: #dc3545; color: white; padding: 0.3em 0.8em; border-radius: 15px; font-size: 0.9em; margin: 0.2em;">Peer Reviewer</span></p>
+          </div>
+          <div class="content-card">
+            <h3>�🎯 Research Focus Areas</h3>
             <p><strong>Specialized Expertise</strong><br>
             Action recognition in challenging lighting conditions, materials informatics, autonomous vehicle safety, and educational VR applications.</p>
           </div>
           <div class="content-card">
             <h3>🌐 International Collaboration</h3>
             <p><strong>Global Research Network</strong><br>
-            Collaborating with international research teams and contributing to cutting-edge research in computer vision and deep learning applications.</p>
+            Active collaboration with international research teams across multiple continents. Contributing to cutting-edge research in computer vision, deep learning, materials informatics, and intelligent transportation systems. Regular participation in international conferences and workshops, fostering knowledge exchange and advancing the field through collaborative research initiatives.</p>
           </div>
         </div>
       </section>
@@ -704,32 +614,75 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 
       <!-- PROJECTS SECTION -->
       <section id="projects" class="section">
-        <h2>Featured Projects</h2>
-        <div class="content-grid">
-          <div class="content-card">
-            <h3>🔍 Action Recognition in Dark Conditions</h3>
-            <p>Developed a comprehensive framework for action understanding in low-light and pitch-dark conditions using efficient tubelet slow-fast networks for industrial applications.</p>
-          </div>
-          <div class="content-card">
-            <h3>⚗️ Materials Synthesis Optimization</h3>
-            <p>Created a hierarchical attention-based framework for enhanced prediction and optimization of organic and inorganic material synthesis using deep learning.</p>
-          </div>
+        <h2>Research Projects Participation</h2>
+        <div style="overflow-x: auto; margin-bottom: 2em;">
+          <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <thead>
+              <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Position</th>
+                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Project Title/Details</th>
+                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Duration</th>
+                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Funding Agency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Bridging the Early Diagnosis and Treatment Gap of Brain Diseases via Smart, Connected, Proactive and Evidence-based Technological Interventions</td>
+                <td style="padding: 1em;">---</td>
+                <td style="padding: 1em;">European Union through Research and Innovation Program</td>
+              </tr>
+              <tr style="background: #f8f9fa; border-bottom: 1px solid #eee;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Open Platform Technology for Autonomous Participation of Energy Network Components</td>
+                <td style="padding: 1em;">Sep 2021 - Present</td>
+                <td style="padding: 1em;">National Research Foundation of Korea</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Connected Vision</td>
+                <td style="padding: 1em;">Jan 2023 - Present</td>
+                <td style="padding: 1em;">National Research Foundation of Korea</td>
+              </tr>
+              <tr style="background: #f8f9fa; border-bottom: 1px solid #eee;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Deep Learning-Based Anomaly Detection and Predictive Maintenance Management System For Industrial Machinery</td>
+                <td style="padding: 1em;">Jan 2023 - Jun 2023</td>
+                <td style="padding: 1em;">Seoul R&D Program</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Precision Agriculture for Disease Preventions</td>
+                <td style="padding: 1em;">Jan 2022 - Jun 2023</td>
+                <td style="padding: 1em;">Ministry of Education, South Korea</td>
+              </tr>
+              <tr style="background: #f8f9fa;">
+                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
+                <td style="padding: 1em;">Virtual Reality-based Learning Strategy for Children</td>
+                <td style="padding: 1em;">---</td>
+                <td style="padding: 1em;">HCR Endowment Fund, Management Unit, Higher Education, Archives, & Libraries Department, KPK</td>
+              </tr>
+            </tbody>
+          </table>
+
           <div class="content-card">
             <h3>� Intelligent Transportation Systems</h3>
             <p>Research and development of AI-powered autonomous vehicle safety systems, including collision avoidance using proximal policy optimization.</p>
           </div>
-          <div class="content-card">
-            <h3>🎮 VR-based Learning Strategy for Children</h3>
-            <p>Virtual reality-based educational applications and immersive learning environments for children. Funded by HCR Endowment Fund, KPK.</p>
-          </div>
-          <div class="content-card">
-            <h3>🌾 Precision Agriculture for Disease Prevention</h3>
-            <p>AI-driven solutions for agricultural disease prevention and crop monitoring. Duration: Jan 2022 - Jun 2023. Funded by Ministry of Education, South Korea.</p>
-          </div>
-          <div class="content-card">
-            <h3>🏭 Industrial Anomaly Detection System</h3>
-            <p>Deep learning-based anomaly detection and predictive maintenance management system. Funded by Seoul R&D Program.</p>
-          </div>
+
+
+        </div>
+        
+        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #28a745; margin-top: 2em;">
+          <h3 style="color: #1e293b; margin-bottom: 1em;">🇰🇷 National Research Foundation of Korea Projects</h3>
+          <ul style="line-height: 1.8; color: #2d3748;">
+            <li><strong>Building a SynchroLab Data Cloud-Based Solid Electrolyte Materials Hub</strong><br>
+                <em>Duration:</em> 2024-07-01 to 2025-08-31</li>
+            <li><strong>Abnormal Behavior Situational Awareness Technology for Crime/Accident Prevention in Connected Vision Environments</strong><br>
+                <em>Duration:</em> 2023-03-01 to 2026-02-28</li>
+            <li><strong>Development of a recycling technology for waste lithium iron phosphate batteries that maximizes carbon dioxide utilization</strong><br>
+                <em>Duration:</em> 2023-05-01 to 2024-04-30</li>
+          </ul>
         </div>
       </section>
 
