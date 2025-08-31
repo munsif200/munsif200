@@ -20,22 +20,83 @@ title: "Dr. Muhammad Munsif"
 /* Modern Academic Website Styles */
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 80px; }
 
-/* New Layout Styles */
-.main-layout { max-width: 1200px; margin: 0 auto; padding: 2em; display: grid; grid-template-columns: 300px 1fr; gap: 3em; }
-.sidebar { position: sticky; top: 100px; height: fit-content; }
-.content-area { min-height: 100vh; }
+/* Perfect Sidebar Layout */
+.page-container { display: flex; max-width: 1400px; margin: 0 auto; gap: 2em; padding: 2em; }
 
-.profile-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2em; border-radius: 15px; text-align: center; margin-bottom: 2em; }
-.profile-photo img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; margin-bottom: 1em; }
-.profile-info h1 { font-size: 1.8em; margin: 0 0 0.5em 0; }
-.profile-info p { font-size: 1em; margin: 0.3em 0; }
+/* LEFT SIDEBAR - As outlined in red */
+.left-sidebar { 
+  width: 300px; 
+  position: sticky; 
+  top: 100px; 
+  height: fit-content; 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+  color: white; 
+  padding: 2em; 
+  border-radius: 15px; 
+  text-align: center; 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
 
-.profile-links { display: flex; flex-direction: column; gap: 0.5em; margin-top: 1.5em; }
-.profile-links a { background: rgba(255,255,255,0.2); color: white; padding: 0.8em 1em; text-decoration: none; border-radius: 8px; font-weight: 500; text-align: center; transition: background 0.3s; }
-.profile-links a:hover { background: rgba(255,255,255,0.3); }
+.profile-photo img { 
+  width: 180px; 
+  height: 180px; 
+  border-radius: 50%; 
+  border: 5px solid white; 
+  object-fit: cover; 
+  margin-bottom: 1em; 
+}
 
-.section { margin: 3em 0; scroll-margin-top: 100px; }
-.section h2 { color: #333; border-bottom: 3px solid #667eea; padding-bottom: 0.5em; margin-bottom: 2em; font-size: 2em; }
+.profile-name { 
+  font-size: 1.5em; 
+  font-weight: bold; 
+  margin: 0.5em 0; 
+}
+
+.profile-title { 
+  font-size: 0.9em; 
+  margin: 0.3em 0; 
+  opacity: 0.9; 
+}
+
+.social-links { 
+  margin-top: 2em; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 0.8em; 
+}
+
+.social-links a { 
+  background: rgba(255,255,255,0.2); 
+  color: white; 
+  padding: 0.8em 1em; 
+  text-decoration: none; 
+  border-radius: 8px; 
+  font-weight: 500; 
+  transition: background 0.3s; 
+}
+
+.social-links a:hover { 
+  background: rgba(255,255,255,0.3); 
+}
+
+/* RIGHT CONTENT AREA */
+.content-area { 
+  flex: 1; 
+  min-height: 100vh; 
+}
+
+.section { 
+  margin: 3em 0; 
+  scroll-margin-top: 100px; 
+}
+
+.section h2 { 
+  color: #333; 
+  border-bottom: 3px solid #667eea; 
+  padding-bottom: 0.5em; 
+  margin-bottom: 2em; 
+  font-size: 2em; 
+}
 
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5em; }
 .skill-card { background: #f8f9fa; padding: 1.5em; border-radius: 10px; border-left: 5px solid #667eea; }
@@ -56,48 +117,34 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .contact-links a:hover { background: #5a6fd8; }
 
 @media (max-width: 768px) {
-  .main-layout { grid-template-columns: 1fr; gap: 2em; }
-  .sidebar { position: static; }
-  .profile-card { margin-bottom: 2em; }
-  .skills-grid, .projects-grid { grid-template-columns: 1fr; }
-  .contact-links { flex-direction: column; }
-}
-</style>
-.contact-links a:hover { background: #5a6fd8; }
-
-@media (max-width: 768px) {
-  .hero-content { flex-direction: column; text-align: center; }
-  .hero-text h1 { font-size: 2em; }
+  .page-container { flex-direction: column; }
+  .left-sidebar { width: 100%; position: static; }
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
   .contact-links { flex-direction: column; }
 }
 </style>
 
-<!-- Main Layout with Sidebar -->
-<div class="main-layout">
-  <!-- Left Sidebar with Profile -->
-  <div class="sidebar">
-    <div class="profile-card">
-      <div class="profile-photo">
-        <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif">
-      </div>
-      <div class="profile-info">
-        <h1>Dr. Muhammad Munsif</h1>
-        <p><strong>PhD in Computer Science</strong></p>
-        <p>Research Assistant</p>
-        <p>Intelligent Media Laboratory</p>
-        <p>Sejong University, Seoul</p>
-      </div>
-      <div class="profile-links">
-        <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en">🎓 Google Scholar</a>
-        <a href="https://www.linkedin.com/in/muhammadmunsif/">💼 LinkedIn</a>
-        <a href="https://github.com/munsif200">💻 GitHub</a>
-        <a href="mailto:munsif3797@gmail.com">📧 Email</a>
-      </div>
+<!-- Page Container -->
+<div class="page-container">
+  
+  <!-- LEFT SIDEBAR (Red Outlined Area) -->
+  <div class="left-sidebar">
+    <div class="profile-photo">
+      <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif">
+    </div>
+    <div class="profile-name">Dr. Muhammad Munsif</div>
+    <div class="profile-title">PhD in Computer Science</div>
+    <div class="profile-title">Research Assistant</div>
+    <div class="profile-title">Intelligent Media Laboratory</div>
+    <div class="profile-title">Sejong University, Seoul</div>
+    
+    <div class="social-links">
+      <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en">🎓 Google Scholar</a>
+      <a href="https://www.linkedin.com/in/muhammadmunsif/">💼 LinkedIn</a>
+      <a href="https://github.com/munsif200">💻 GitHub</a>
+      <a href="mailto:munsif3797@gmail.com">📧 Email</a>
     </div>
   </div>
-
-  <!-- Right Content Area -->
   <div class="content-area">
 
 <!-- About Me Section -->
@@ -306,7 +353,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 </section>
 
   </div> <!-- End content-area -->
-</div> <!-- End main-layout -->
+</div> <!-- End page-container -->
 
 <!-- Footer -->
 <footer style="background: #333; color: white; text-align: center; padding: 2em; margin-top: 4em;">
