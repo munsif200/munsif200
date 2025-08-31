@@ -18,7 +18,11 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-/* TOP NAV            <h3>📝 Peer Review Serv            <h3>🚗 Intelligent Transportation Systems</h3>ces</h3>GATION BAR */
+/* TOP NAV            <div class="content-card">
+            <h3>📋 Peer Review Services</h3>
+            <p><strong>100+ Verified Reviews</strong><br>
+            Active reviewer for top-tier journals and conferences including IEEE Transactions on Industrial Informatics, Knowledge-Based Systems, Engineering Applications of AI, Advanced Engineering Informatics, Human-centric Computing and Information Sciences, Alexandria Engineering Journal, Virtual Reality & Intelligent Hardware, Computer Systems Science and Engineering, Journal of Computational Design and Engineering, and Fractals.</p>
+          </div>     <h3>📝 Peer Review Serv            <h3>🚗 Intelligent Transportation Systems</h3>ces</h3>GATION BAR */
 .top-nav { 
   position: fixed; 
   top: 0; 
@@ -482,6 +486,10 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
       <!-- ABOUT SECTION -->
       <section id="about" class="section">
         <h2>About Me</h2>
+        <p style="font-size: 1.2em; line-height: 1.8; text-align: center; max-width: 800px; margin: 0 auto 2em auto; color: #1e293b;">
+          Hello! I'm Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.
+        </p>
+        
         <div class="content-grid">
           <div class="content-card">
             <h3>🎓 Education</h3>
@@ -498,7 +506,6 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             <p>Research Assistant at Intelligent Media Laboratory, Daeyang AI Center, Sejong University, specializing in advanced AI applications and cutting-edge technologies</p>
           </div>
         </div>
-        <p>Hello! I'm Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.</p>
         
         <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #667eea; margin-top: 2em;">
           <h3 style="color: #1e293b; margin-bottom: 1em;">🏆 Awards & Recognition</h3>
@@ -664,6 +671,37 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         </div>
       </section>
 
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section">
+        <h2>Technical Expertise</h2>
+        <div class="content-grid">
+          <div class="content-card">
+            <h3>🔍 Computer Vision</h3>
+            <p>Action recognition in challenging lighting conditions, object detection, image segmentation, scene understanding, and pattern analysis using advanced neural networks.</p>
+          </div>
+          <div class="content-card">
+            <h3>🧠 Deep Learning & AI</h3>
+            <p>Tubelet networks, hierarchical attention mechanisms, convolutional neural networks, and optimization techniques for real-world deployment.</p>
+          </div>
+          <div class="content-card">
+            <h3>💻 Programming & Tools</h3>
+            <p>Python, MATLAB, TensorFlow, PyTorch, OpenCV, Keras, Scikit-learn, Unity, Unreal Engine</p>
+          </div>
+          <div class="content-card">
+            <h3>🚗 Intelligent Transportation</h3>
+            <p>Autonomous vehicle safety systems, collision avoidance using proximal policy optimization, sensor fusion, and motion planning algorithms.</p>
+          </div>
+          <div class="content-card">
+            <h3>🥽 VR/AR Technologies</h3>
+            <p>Educational applications, serious games for science education, immersive training environments, and virtual reality development.</p>
+          </div>
+          <div class="content-card">
+            <h3>⚗️ Materials Informatics</h3>
+            <p>AI-accelerated materials discovery, synthesis prediction and optimization using machine learning and attention-based frameworks.</p>
+          </div>
+        </div>
+      </section>
+
       <!-- PROJECTS SECTION -->
       <section id="projects" class="section">
         <h2>Featured Projects</h2>
@@ -720,24 +758,16 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
       <!-- PHOTO GALLERY SECTION -->
       <section id="gallery" class="section photo-gallery">
         <h2>📸 PhD Journey - Photo Gallery</h2>
-        <p style="text-align: center; color: #666; font-size: 1.1em; margin-bottom: 3em;">
-          Capturing memorable moments and milestones during my PhD research journey. These photos represent 
-          conferences, collaborations, achievements, and special moments that have shaped my academic path.
-        </p>
         
         <div class="gallery-grid">
           <div class="gallery-item">
             <img src="/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg" 
                  alt="2022 - Academic Collaboration with Professor" 
                  class="gallery-image" 
-                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg', '2022 - Academic Collaboration', 'Important meeting and collaboration with my professor, discussing research directions and academic milestones during my PhD journey.')">
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg', '2022 - Academic Collaboration', '')">
             <div class="gallery-caption">
               <div class="gallery-year">2022</div>
               <div class="gallery-title">Academic Collaboration</div>
-              <div class="gallery-description">
-                Important meeting and collaboration with my professor, discussing research directions 
-                and academic milestones during my PhD journey.
-              </div>
             </div>
           </div>
 
@@ -745,14 +775,10 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             <img src="/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg" 
                  alt="2023 - Research Progress Meeting with Professor" 
                  class="gallery-image"
-                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg', '2023 - Research Progress Meeting', 'Continuing academic collaboration and discussing research progress, publications, and future research directions in computer vision and deep learning.')">
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg', '2023 - Research Progress Meeting', '')">
             <div class="gallery-caption">
               <div class="gallery-year">2023</div>
               <div class="gallery-title">Research Progress Meeting</div>
-              <div class="gallery-description">
-                Continuing academic collaboration and discussing research progress, publications, 
-                and future research directions in computer vision and deep learning.
-              </div>
             </div>
           </div>
 
@@ -760,14 +786,10 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             <img src="/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg" 
                  alt="2024 - Celebratory Dinner with Professor" 
                  class="gallery-image"
-                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg', '2024 - Celebratory Dinner', 'A special dinner celebrating research achievements, successful publications, and marking important milestones in my PhD research journey.')">
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg', '2024 - Celebratory Dinner', '')">
             <div class="gallery-caption">
               <div class="gallery-year">2024</div>
               <div class="gallery-title">Celebratory Dinner</div>
-              <div class="gallery-description">
-                A special dinner celebrating research achievements, successful publications, 
-                and marking important milestones in my PhD research journey.
-              </div>
             </div>
           </div>
 
@@ -775,49 +797,41 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             <img src="/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg" 
                  alt="2024 - KingPC Conference Presentation" 
                  class="gallery-image"
-                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg', '2024 - KingPC Conference', 'Presenting research findings at the KingPC Conference, sharing knowledge with the academic community and networking with fellow researchers.')">
+                 onclick="openLightbox('/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg', '2024 - KingPC Conference', '')">
             <div class="gallery-caption">
               <div class="gallery-year">2024</div>
               <div class="gallery-title">KingPC Conference</div>
-              <div class="gallery-description">
-                Presenting research findings at the KingPC Conference, sharing knowledge with 
-                the academic community and networking with fellow researchers.
-              </div>
             </div>
           </div>
-        </div>
-        
-        <div style="text-align: center; margin-top: 3em; padding: 2em; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #667eea;">
-          <h3 style="color: #1e293b; margin-bottom: 1em;">📅 More Memories Coming Soon</h3>
-          <p style="color: #666; margin: 0;">
-            This gallery will continue to grow as I progress through my PhD journey. 
-            Future additions will include conference presentations, research collaborations, 
-            lab activities, and other significant academic milestones. 
-            Stay tuned for more updates!
-          </p>
         </div>
       </section>
 
       <!-- CONTACT SECTION -->
-      <section id="contact" class="section">
-        <h2>Contact Information</h2>
+      <section id="contact" class="section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-top: 4em; border-radius: 20px 20px 0 0;">
+        <h2 style="color: white; text-align: center; margin-bottom: 2em;">Contact Information</h2>
         <div class="content-grid">
-          <div class="content-card">
-            <h3>📧 Email</h3>
-            <p><a href="mailto:munsif3797@gmail.com">munsif3797@gmail.com</a></p>
+          <div class="content-card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+            <h3 style="color: #f8f9fa;">📧 Email</h3>
+            <p><a href="mailto:munsif3797@gmail.com" style="color: #f8f9fa; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3);">munsif3797@gmail.com</a></p>
           </div>
-          <div class="content-card">
-            <h3>📍 Location</h3>
-            <p>Seoul, South Korea</p>
+          <div class="content-card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+            <h3 style="color: #f8f9fa;">📍 Location</h3>
+            <p style="color: #f8f9fa;">Seoul, South Korea</p>
           </div>
-          <div class="content-card">
-            <h3>🏛️ Institution</h3>
-            <p>Intelligent Media Laboratory<br>Digital Media & Communications</p>
+          <div class="content-card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+            <h3 style="color: #f8f9fa;">🏛️ Institution</h3>
+            <p style="color: #f8f9fa;">Intelligent Media Laboratory<br>Digital Media & Communications</p>
           </div>
-          <div class="content-card">
-            <h3>🔗 Connect</h3>
-            <p>Available for research collaborations, academic discussions, and professional networking.</p>
+          <div class="content-card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+            <h3 style="color: #f8f9fa;">🔗 Connect</h3>
+            <p style="color: #f8f9fa;">Available for research collaborations, academic discussions, and professional networking.</p>
           </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2em; padding-top: 2em; border-top: 1px solid rgba(255,255,255,0.2);">
+          <p style="color: rgba(255,255,255,0.8); margin: 0; font-size: 0.9em;">
+            © 2025 Dr. Muhammad Munsif | All rights reserved
+          </p>
         </div>
       </section>
     </div>
