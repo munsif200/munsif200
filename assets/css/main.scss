@@ -1,6 +1,37 @@
 ---
 ---
 
+/* FULL-WIDTH OVERRIDE STYLES - Override any theme constraints */
+
+/* Reset theme containers and wrappers */
+.wrapper, .page, .page__content, .site-header, .site-footer,
+.page__inner-wrap, .archive, .layout--single {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hide default theme headers and navigation */
+.masthead, .site-header, .page__hero, .page__hero--overlay {
+  display: none !important;
+}
+
+/* Ensure body takes full width */
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Override any theme-specific content containers */
+.page__content .page__inner-wrap {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* Custom styles for Dr. Muhammad Munsif's academic website */
 
 /* Header styles */
