@@ -1,0 +1,128 @@
+# Site Configuration
+title: "Dr. Muhammad Munsif"
+description: "PhD in Computer Science | Researcher in Computer Vision, Deep Learning, VR/AR, Intelligent Transportation Systems"
+url: "https://your-username.github.io"
+baseurl: ""
+
+# Author Information
+author:
+  name: "Dr. Muhammad Munsif"
+  bio: "Researcher at Intelligent Media Laboratory, Seoul, South Korea. PhD in Computer Science specializing in Computer Vision, Deep Learning, VR/AR, and Intelligent Transportation Systems"
+  email: "munsif3797@gmail.com"
+  location: "Seoul, South Korea"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/your-profile"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username"
+
+# Theme and Build Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
+timezone: "UTC"
+locale: "en-US"
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# SEO and Social
+twitter:
+  username: "your-twitter-handle"
+facebook:
+  username: "your-facebook-username"
+  app_id: "your-facebook-app-id"
+  publisher: "your-facebook-page-url"
+og_image: "/assets/images/Munsif.jpg"
+social:
+  type: "Person"
+  name: "Dr. Muhammad Munsif"
+  links:
+    - "https://scholar.google.com/citations?user=YOUR_ID"
+    - "https://linkedin.com/in/your-profile"
+    - "https://github.com/your-username"
+
+# Analytics
+analytics:
+  provider: false
+
+# Comments
+comments:
+  provider: false
+
+# Search
+search: true
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+include:
+  - _pages
+  - assets
+  - _posts
+
+# Exclude
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
