@@ -26,9 +26,7 @@ author:
       url: "https://github.com/munsif200"
 
 # Theme and Build Settings
-# theme: minima
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+theme: minima
 
 # Site Settings
 timezone: "UTC"
