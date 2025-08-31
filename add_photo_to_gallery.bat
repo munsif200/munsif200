@@ -18,12 +18,15 @@ echo 1. Edit index.md file
 echo 2. Find the "gallery-grid" section
 echo 3. Copy an existing gallery-item div
 echo 4. Update the image src, alt text, year, title, and description
-echo 5. Run: git add . && git commit -m "Add new photo to gallery" && git push
+echo 5. UPDATE the onclick function for lightbox functionality
+echo 6. Run: git add . && git commit -m "Add new photo to gallery" && git push
 echo.
-echo Example gallery item structure:
+echo Example gallery item structure with CLICKABLE LIGHTBOX:
 echo ^<div class="gallery-item"^>
 echo   ^<img src="/munsif200/assets/images/Photo Gallery/YYYY_YourPhoto.jpg" 
-echo        alt="Description" class="gallery-image"^>
+echo        alt="YYYY - Your Description" 
+echo        class="gallery-image"
+echo        onclick="openLightbox('/munsif200/assets/images/Photo Gallery/YYYY_YourPhoto.jpg', 'YYYY - Your Title', 'Your detailed description here.')"^>
 echo   ^<div class="gallery-caption"^>
 echo     ^<div class="gallery-year"^>YYYY^</div^>
 echo     ^<div class="gallery-title"^>Your Title^</div^>
@@ -32,5 +35,12 @@ echo       Your description here...
 echo     ^</div^>
 echo   ^</div^>
 echo ^</div^>
+echo.
+echo FEATURES:
+echo - Photos are displayed in original resolution when clicked
+echo - Clickable lightbox overlay with full-screen view
+echo - Responsive design for all devices
+echo - Keyboard support (ESC to close)
+echo - Background blur effect for better focus
 echo.
 pause

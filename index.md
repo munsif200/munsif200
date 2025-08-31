@@ -18,7 +18,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-/* TOP NAVIGATION BAR */
+/* TOP NAV            <h3>📝 Peer Review Serv            <h3>🚗 Intelligent Transportation Systems</h3>ces</h3>GATION BAR */
 .top-nav { 
   position: fixed; 
   top: 0; 
@@ -443,7 +443,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#publications">Publications</a>
-        <a href="#patents">Activities</a>
+        <a href="#patents">Patents & Activities</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#gallery">Photo Gallery</a>
@@ -486,19 +486,42 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           <div class="content-card">
             <h3>🎓 Education</h3>
             <p><strong>PhD in Computer Science</strong><br>
-            Intelligent Media Laboratory<br>
-            Digital Media & Communications, Seoul, South Korea</p>
+            Intelligent Media Laboratory, Sejong University<br>
+            Seoul, South Korea</p>
           </div>
           <div class="content-card">
             <h3>🔬 Research Focus</h3>
-            <p>Computer Vision, Deep Learning, Virtual Reality (VR), Augmented Reality (AR), Intelligent Transportation Systems, and Medical Image Analysis</p>
+            <p>Computer Vision, Deep Learning, Virtual Reality (VR), Augmented Reality (AR), Intelligent Transportation Systems, and Materials Informatics</p>
           </div>
           <div class="content-card">
             <h3>📍 Current Position</h3>
-            <p>Research Scholar at Intelligent Media Laboratory, specializing in advanced AI applications and immersive technologies</p>
+            <p>Research Assistant at Intelligent Media Laboratory, Daeyang AI Center, Sejong University, specializing in advanced AI applications and cutting-edge technologies</p>
           </div>
         </div>
-        <p>I am a dedicated researcher with a passion for advancing the field of computer science through innovative applications of artificial intelligence and computer vision. My work focuses on developing cutting-edge solutions that bridge the gap between theoretical research and practical applications.</p>
+        <p>Hello! I'm Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.</p>
+        
+        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #667eea; margin-top: 2em;">
+          <h3 style="color: #1e293b; margin-bottom: 1em;">🏆 Awards & Recognition</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5em;">
+            <div>
+              <h4>🎓 Fully Funded PhD Scholarship (2021)</h4>
+              <p>Sejong University Scholarship Program for Master's and Ph.D. degree</p>
+            </div>
+            <div>
+              <h4>🎓 Fully Funded Bachelor's Scholarship (2019)</h4>
+              <p>Higher Education Commission of Pakistan scholarship program</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #28a745; margin-top: 2em;">
+          <h3 style="color: #1e293b; margin-bottom: 1em;">🏛️ Professional Memberships</h3>
+          <div style="display: flex; gap: 1em; flex-wrap: wrap;">
+            <span style="background: #667eea; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">IEEE Member</span>
+            <span style="background: #28a745; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">Active Researcher</span>
+            <span style="background: #dc3545; color: white; padding: 0.5em 1em; border-radius: 20px; font-size: 0.9em;">Peer Reviewer</span>
+          </div>
+        </div>
       </section>
 
       <!-- SKILLS SECTION -->
@@ -549,15 +572,67 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         </div>
 
         <div class="publication-item">
+          <div class="publication-title">Proximal Policy Optimization for Collision Avoidance and Motion Planning in Autonomous Vehicles: A Mathematical Modeling Perspective</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Fractals, Complex Geometry, Patterns, and Scaling in Nature and Society | 2025</div>
+          <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218348X25401711" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
           <div class="publication-title">Darkness-Adaptive Action Recognition: Leveraging Efficient Tubelet Slow-Fast Network for Industrial Applications</div>
           <div class="publication-details">Dr. Muhammad Munsif, et al. | IEEE Transactions on Industrial Informatics | 2024</div>
           <a href="https://ieeexplore.ieee.org/abstract/document/10636303" class="publication-link" target="_blank">View Publication →</a>
         </div>
 
+        <div class="publication-item">
+          <div class="publication-title">Contextual visual and motion salient fusion framework for action recognition in dark environments</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Knowledge-Based Systems | 2024</div>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0950705124011146" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">Medium Scale Benchmark for Cricket Excited Actions Understanding</div>
+          <div class="publication-details">Hussain, et al. | IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops | 2024</div>
+          <a href="https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Hussain_Medium_Scale_Benchmark_for_Cricket_Excited_Actions_Understanding_CVPRW_2024_paper.html" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">Attention-Based Deep Learning Framework for Action Recognition in a Dark Environment</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Human-centric Computing and Information Sciences | 2024</div>
+          <a href="https://hcisj.com/articles/?HCIS202414004" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">Optimized deep learning-based cricket activity focused network and medium scale benchmark</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Alexandria Engineering Journal, Elsevier | 2024</div>
+          <a href="https://www.sciencedirect.com/science/article/pii/S1110016823003368?via%3Dihub" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">CT-NET: A Novel Convolutional Transformer-Based Network for Short-Term Solar Energy Forecasting Using Climatic Information</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Computer Systems Science and Engineering | 2024</div>
+          <a href="https://www.techscience.com/csse/v47n2/53634" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">Industrial defective chips detection using deep convolutional neural network with inverse feature matching mechanism</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Journal of Computational Design and Engineering | 2024</div>
+          <a href="https://academic.oup.com/jcde/article/11/3/326/7611698?login=true" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
+        <div class="publication-item">
+          <div class="publication-title">Serious Games in Science Education. A Systematic Literature Review</div>
+          <div class="publication-details">Dr. Muhammad Munsif, et al. | Virtual Reality & Intelligent Hardware | 2023</div>
+          <a href="https://www.sciencedirect.com/science/article/pii/S2096579622000201?via%3Dihub" class="publication-link" target="_blank">View Publication →</a>
+        </div>
+
         <div style="text-align: center; margin-top: 2em;">
-          <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en&authuser=1" target="_blank" 
-             style="background: #667eea; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500;">
-             📖 View All Publications on Google Scholar
+          <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en" target="_blank" 
+             style="background: #667eea; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; margin-right: 1em;">
+             📖 Google Scholar
+          </a>
+          <a href="https://www.linkedin.com/in/muhammadmunsif/" target="_blank" 
+             style="background: #0077b5; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500;">
+             💼 LinkedIn
           </a>
         </div>
       </section>
