@@ -15,7 +15,22 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   margin: 0; 
   padding: 0; 
   position: relative;
-  background: linear-gradient(13                                                                   </table>
+  background: linear-gradient(13                                                                                  </table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
 
         </div>
       </section>table>
