@@ -8,7 +8,7 @@ title: "Dr. Muhammad Munsif"
 body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 .wrapper, .page, .page__content, .site-header, .site-footer { max-width: none !important; width: 100% !important; margin: 0 !important; padding: 0 !important; }
 
-/* FULL-WID            <h3>💻 Programming & Tools</h3>H LAYOUT SYSTEM */
+/* FULL-WID            <h3>ogramming & Tools</h3>H LAYOUT SYSTEM */
 .full-width-container { 
   width: 100vw; 
   min-height:             <h            <h3>🎯 Research Focus Areas</h3>>🏆 Awards & Scholarships</h3>00vh; 
@@ -433,39 +433,15 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         </div>
       </section>
 
-      <!-- SKILLS SECTION -->
-      <section id="skills" class="section">
-        <h2>Technical Expertise</h2>
-        <div class="content-grid">
-          <div class="content-card">
-            <h3>🔍 Computer Vision</h3>
-            <p>Action recognition in challenging lighting conditions, object detection, image segmentation, scene understanding, and pattern analysis using advanced neural networks.</p>
-          </div>
-          <div class="content-card">
-            <h3>🧠 Deep Learning & AI</h3>
-            <p>Tubelet networks, hierarchical attention mechanisms, convolutional neural networks, and optimization techniques for real-world deployment.</p>
-          </div>
+      <!-- PUBLICATIONS SECTION -->
+      <section id="publications" class="section">
+
           <div class="content-card">
             <h3>� Programming & Tools</h3>
             <p>Python, MATLAB, TensorFlow, PyTorch, OpenCV, Keras, Scikit-learn, Unity, Unreal Engine</p>
           </div>
-          <div class="content-card">
-            <h3>🚗 Intelligent Transportation</h3>
-            <p>Autonomous vehicle safety systems, collision avoidance using proximal policy optimization, sensor fusion, and motion planning algorithms.</p>
-          </div>
-          <div class="content-card">
-            <h3>🥽 VR/AR Technologies</h3>
-            <p>Educational applications, serious games for science education, immersive training environments, and virtual reality development.</p>
-          </div>
-          <div class="content-card">
-            <h3>⚗️ Materials Informatics</h3>
-            <p>AI-accelerated materials discovery, synthesis prediction and optimization using machine learning and attention-based frameworks.</p>
-          </div>
-        </div>
-      </section>
 
-      <!-- PUBLICATIONS SECTION -->
-      <section id="publications" class="section">
+
         <h2>Recent Publications</h2>
         
         <div class="publication-item">
