@@ -1,239 +1,118 @@
 # Dr. Muhammad Munsif - Academic Personal Website
 
-A professional academic personal website built with Jekyll and the Minimal Mistakes theme, designed for GitHub Pages deployment.
+> 🌐 **Live Website:** [https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)
 
-## Overview
+A professional academic personal website showcasing the research profile and academic achievements of Dr. Muhammad Munsif, PhD in Computer Science, currently working as a researcher at Intelligent Media Laboratory, Sejong University, Seoul, South Korea.
 
-This website showcases the academic and research profile of Dr. Muhammad Munsif, featuring:
+## 🎓 About Dr. Muhammad Munsif
 
-- Clean, modern, minimal design
-- Responsive layout (desktop & mobile friendly)
-- Hero section with professional introduction
-- Comprehensive sections: About, Skills, Publications, Projects, Contact
-- SEO optimized with proper meta tags
-- GitHub Pages compatible
+Dr. Muhammad Munsif is a dedicated researcher specializing in:
+- **Computer Vision** & **Deep Learning**
+- **Virtual Reality (VR)** & **Augmented Reality (AR)**
+- **Materials Informatics**
+- **Action Recognition** & **Machine Learning**
 
-## Features
+Currently pursuing cutting-edge research in AI and computer vision applications at one of South Korea's leading research institutions.
 
-### Homepage
-- Hero section with name and professional tagline
-- Quick navigation to main sections
-- Professional introduction
+## 🌟 Website Features
 
-### About Section
-- Academic background and education
-- Research interests and expertise
-- Professional experience
-- Awards and honors
-- Service and outreach activities
+### 📊 **Research Portfolio**
+- Comprehensive publications list with detailed metrics
+- Featured research projects with professional presentation
+- Academic achievements and awards showcase
 
-### Skills & Expertise
-- Interactive skill cards for different research areas
-- Programming language proficiency bars
-- Tools and technologies overview
+### 💼 **Professional Experience**
+- Current research position at Intelligent Media Laboratory
+- Previous academic and research roles
+- International collaboration highlights
 
-### Publications
-- Featured research papers with links
-- Research metrics and statistics
-- Conference presentations
-- Academic service information
-- External profile links (Google Scholar, ResearchGate, etc.)
+### 🔬 **Technical Expertise**
+- Advanced programming skills (Python, MATLAB, C++)
+- AI/ML frameworks and tools proficiency
+- Research methodologies and academic service
 
-### Projects
-- Detailed project showcases with descriptions
-- GitHub repository links
-- Open source contributions
-- Project statistics
+### 📝 **Publications & Impact**
+- Peer-reviewed journal articles
+- Conference presentations and proceedings
+- Research metrics and academic profiles
 
-### Contact
-- Multiple contact methods
-- Professional social media links
-- Contact form integration
-- Location and time zone information
+## 🚀 Quick Start
 
-## Quick Start
-
-### Prerequisites
-
-- Ruby (version 2.7 or higher)
-- Bundler gem
-- Git
+### View the Website
+Simply visit: **[https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)**
 
 ### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/munsif200/munsif200.git
+cd munsif200
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
-   ```
+# Install dependencies (requires Ruby and Jekyll)
+bundle install
 
-2. **Install dependencies**
-   ```bash
-   bundle install
-   ```
+# Serve locally
+bundle exec jekyll serve
 
-3. **Serve the site locally**
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-4. **View the site**
-   Open your browser and navigate to `http://localhost:4000`
-
-### GitHub Pages Deployment
-
-1. **Fork this repository** or create a new repository named `your-username.github.io`
-
-2. **Push your changes** to the main branch
-
-3. **Enable GitHub Pages**
-   - Go to your repository settings
-   - Scroll down to "Pages" section
-   - Select "Deploy from a branch"
-   - Choose "main" branch and "/ (root)" folder
-   - Save the settings
-
-4. **Access your site** at `https://your-username.github.io`
-
-## Customization
-
-### Personal Information
-
-Update the following files with your information:
-
-#### `_config.yml`
-- Site title and description
-- Author information
-- Social media links
-- Email address
-- URL and baseurl
-
-#### Content Pages
-- `index.md` - Homepage content
-- `_pages/about.md` - About section
-- `_pages/skills.md` - Skills and expertise
-- `_pages/publications.md` - Research and publications
-- `_pages/projects.md` - Projects showcase
-- `_pages/contact.md` - Contact information
-
-### Profile Photo
-
-Replace the placeholder profile photo:
-1. Add your photo to `assets/images/profile.jpg`
-2. Recommended size: 400x400 pixels
-3. Format: JPEG or PNG
-
-### Navigation
-
-Edit `_data/navigation.yml` to modify the main navigation menu.
-
-### Theme Customization
-
-The site uses the Minimal Mistakes theme. You can:
-- Change the skin in `_config.yml` (default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise)
-- Customize CSS by creating `assets/css/main.scss`
-- Modify layouts by creating files in `_layouts/`
-
-### Adding Content
-
-#### Blog Posts
-Create new posts in the `_posts/` directory with the format `YYYY-MM-DD-title.md`
-
-#### Portfolio Items
-Add portfolio items to the `_portfolio/` directory (you may need to create this directory and configure the collection in `_config.yml`)
-
-## Configuration
-
-### SEO Settings
-
-The site includes SEO optimization through:
-- Jekyll SEO Tag plugin
-- Open Graph meta tags
-- Twitter Card support
-- Structured data markup
-
-### Analytics
-
-To add Google Analytics:
-1. Get your Google Analytics tracking ID
-2. Add it to `_config.yml` under the `analytics` section
-
-### Comments
-
-To enable comments (using Disqus):
-1. Create a Disqus account and get your site name
-2. Add it to `_config.yml` under the `comments` section
-
-## File Structure
-
-```
-├── _config.yml          # Site configuration
-├── _data/
-│   └── navigation.yml   # Navigation menu
-├── _pages/             # Main content pages
-│   ├── about.md
-│   ├── contact.md
-│   ├── projects.md
-│   ├── publications.md
-│   └── skills.md
-├── assets/
-│   └── images/         # Images and media files
-├── Gemfile             # Ruby dependencies
-├── index.md            # Homepage
-└── README.md           # This file
+# View at http://localhost:4000
 ```
 
-## Dependencies
+## 🛠️ Built With
 
-- Jekyll (~> 4.3.0)
-- Minimal Mistakes Jekyll theme
-- Various Jekyll plugins (see Gemfile)
+- **Jekyll** - Static site generator
+- **GitHub Pages** - Hosting and deployment
+- **Responsive Design** - Mobile and desktop optimized
+- **SEO Optimized** - Search engine friendly
+- **Professional Styling** - Academic-focused design
 
-## Troubleshooting
+## 📱 Responsive Design
 
-### Common Issues
+The website is fully responsive and optimized for:
+- 🖥️ Desktop computers
+- 📱 Mobile devices
+- 📋 Tablets
+- 🖨️ Print-friendly layouts
 
-1. **Bundle install fails**
-   - Make sure you have Ruby and Bundler installed
-   - Try `bundle config --local path vendor/bundle` then `bundle install`
+## 🔗 Connect with Dr. Munsif
 
-2. **Site doesn't build on GitHub Pages**
-   - Check that all plugins are supported by GitHub Pages
-   - Verify your `_config.yml` syntax
+- **🌐 Website:** [https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)
+- **📧 Email:** munsif3797@gmail.com
+- **🏛️ Institution:** Intelligent Media Laboratory, Sejong University
+- **📍 Location:** Seoul, South Korea
 
-3. **Images not displaying**
-   - Check file paths and ensure images are in the `assets/images/` directory
-   - Verify image file extensions match the references
+## 📈 Updates & Maintenance
 
-4. **Local development issues**
-   - Clear Jekyll cache: `bundle exec jekyll clean`
-   - Restart the server: `bundle exec jekyll serve --livereload`
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test locally
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, please contact:
-- Email: munsif3797@gmail.com
-- Location: Intelligent Media Laboratory, Seoul, South Korea
-
-## Acknowledgments
-
-- Built with [Jekyll](https://jekyllrb.com/)
-- Theme: [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
-- Icons: [Font Awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/)
-- Hosted on [GitHub Pages](https://pages.github.com/)
+This website is regularly updated with:
+- New research publications
+- Recent project developments
+- Professional achievements
+- Academic service activities
 
 ---
 
-*Last updated: August 2025*
+### 📄 Repository Structure
+
+```
+├── index.md              # Homepage with hero section and overview
+├── _pages/               # Main content pages
+│   ├── about.md          # Academic background
+│   ├── publications.md   # Research publications
+│   ├── projects.md       # Project portfolio
+│   ├── skills.md         # Technical expertise
+│   └── contact.md        # Contact information
+├── assets/               # Images and styling
+├── _config.yml           # Site configuration
+└── README.md             # This file
+```
+
+### 🚀 Deployment Status
+
+- ✅ **Live:** Website automatically deploys via GitHub Pages
+- ✅ **SSL:** Secure HTTPS connection
+- ✅ **CDN:** Fast global content delivery
+- ✅ **Mobile:** Responsive design tested
+
+---
+
+**Last Updated:** August 2025 | **Status:** Active & Maintained
+
+*Built with ❤️ for academic excellence and research visibility*
