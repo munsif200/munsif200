@@ -3,7 +3,7 @@
 
 A professional academic personal website showcasing the research profile and academic achievements of Dr. Muhammad Munsif, PhD in Computer Science, currently working as a researcher at Intelligent Media Laboratory, Sejong University, Seoul, South Korea.
 
-## 🎓 About Dr. Muhammad Munsif
+## 🎓 About
 
 Dr. Muhammad Munsif is a dedicated researcher specializing in:
 - **Computer Vision** & **Deep Learning**
