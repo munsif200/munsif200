@@ -88,6 +88,26 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   padding: 4em 3em;
   margin: -3em -3em 3em -3em;
   text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2em;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-title {
@@ -347,6 +367,12 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
     font-size: 2em;
   }
   
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5em;
+  }
+  
   .section h2 {
     font-size: 2em;
   }
@@ -377,6 +403,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
     <div class="content-area">
       <!-- HERO SECTION -->
       <div class="hero-section">
+        <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif" class="profile-photo">
         <h1 class="hero-title">Welcome to My Academic Portfolio</h1>
         <p class="hero-subtitle">Exploring the frontiers of Computer Vision, Deep Learning, Virtual Reality, and Intelligent Transportation Systems through innovative research and cutting-edge technology.</p>
       </div>
