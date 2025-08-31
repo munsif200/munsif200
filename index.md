@@ -234,6 +234,71 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   text-decoration: underline;
 }
 
+/* Photo Gallery Styles */
+.photo-gallery {
+  margin: 3em 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+.gallery-caption {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.gallery-title {
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.gallery-description {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.gallery-year {
+  background: #667eea;
+  color: white;
+  padding: 0.3em 0.8em;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .main-layout {
@@ -288,6 +353,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
         <a href="#patents">Patents</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#gallery">Photo Gallery</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
@@ -298,7 +364,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
     <!-- LEFT SIDEBAR -->
     <div class="sidebar">
       <div class="profile-section">
-        <img src="/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif" class="profile-photo">
+        <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif" class="profile-photo">
         <div class="profile-name">Dr. Muhammad Munsif</div>
         <div class="profile-title">PhD in Computer Science<br>Computer Vision & Deep Learning Researcher</div>
       </div>
@@ -449,6 +515,79 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           <h3>👨‍🏫 Graduate Teaching Assistant</h3>
           <p><strong>2019 - 2022</strong><br>
           Assisted in teaching computer science courses including Machine Learning, Computer Vision, and Data Structures. Mentored undergraduate students in research projects.</p>
+        </div>
+      </section>
+
+      <!-- PHOTO GALLERY SECTION -->
+      <section id="gallery" class="section photo-gallery">
+        <h2>📸 PhD Journey - Photo Gallery</h2>
+        <p style="text-align: center; color: #666; font-size: 1.1em; margin-bottom: 3em;">
+          Capturing memorable moments and milestones during my PhD research journey. These photos represent 
+          conferences, collaborations, achievements, and special moments that have shaped my academic path.
+        </p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/munsif200/assets/images/Photo Gallery/2022_With_Professor.jpg" 
+                 alt="2022 - With Professor" class="gallery-image">
+            <div class="gallery-caption">
+              <div class="gallery-year">2022</div>
+              <div class="gallery-title">Academic Collaboration</div>
+              <div class="gallery-description">
+                Important meeting and collaboration with my professor, discussing research directions 
+                and academic milestones during my PhD journey.
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/munsif200/assets/images/Photo Gallery/2023_With_Professor.jpg" 
+                 alt="2023 - With Professor" class="gallery-image">
+            <div class="gallery-caption">
+              <div class="gallery-year">2023</div>
+              <div class="gallery-title">Research Progress Meeting</div>
+              <div class="gallery-description">
+                Continuing academic collaboration and discussing research progress, publications, 
+                and future research directions in computer vision and deep learning.
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/munsif200/assets/images/Photo Gallery/2024_Dinner_With_Professor.jpg" 
+                 alt="2024 - Dinner with Professor" class="gallery-image">
+            <div class="gallery-caption">
+              <div class="gallery-year">2024</div>
+              <div class="gallery-title">Celebratory Dinner</div>
+              <div class="gallery-description">
+                A special dinner celebrating research achievements, successful publications, 
+                and marking important milestones in my PhD research journey.
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/munsif200/assets/images/Photo Gallery/2024_KingPC_Confrence.jpg" 
+                 alt="2024 - KingPC Conference" class="gallery-image">
+            <div class="gallery-caption">
+              <div class="gallery-year">2024</div>
+              <div class="gallery-title">KingPC Conference</div>
+              <div class="gallery-description">
+                Presenting research findings at the KingPC Conference, sharing knowledge with 
+                the academic community and networking with fellow researchers.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3em; padding: 2em; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #667eea;">
+          <h3 style="color: #1e293b; margin-bottom: 1em;">📅 More Memories Coming Soon</h3>
+          <p style="color: #666; margin: 0;">
+            This gallery will continue to grow as I progress through my PhD journey. 
+            Future additions will include conference presentations, research collaborations, 
+            lab activities, and other significant academic milestones. 
+            Stay tuned for more updates!
+          </p>
         </div>
       </section>
 
