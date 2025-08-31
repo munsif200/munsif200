@@ -12,107 +12,83 @@ Dr. Muhammad Munsif is a dedicated researcher specializing in:
 - **Materials Informatics**
 - **Action Recognition** & **Machine Learning**
 
-Currently pursuing cutting-edge research in AI and computer vision applications at one of South Korea's leading research institutions.
+Currently pursuing cutting-edge research in AI and computer vision applications at one of South Korea's leading research institutions. With a strong background in computational sciences and artificial intelligence, I focus on developing innovative solutions that bridge theoretical research with practical applications in industry and academia.
 
-## 🌟 Website Features
+### 🔬 Research Focus
+- Advanced deep learning architectures for computer vision
+- Immersive technologies for educational and industrial applications
+- Materials science applications using AI and machine learning
+- Real-time action recognition and behavior analysis systems
 
-### 📊 **Research Portfolio**
-- Comprehensive publications list with detailed metrics
-- Featured research projects with professional presentation
-- Academic achievements and awards showcase
+### 🏛️ Current Position
+**Research Assistant** | Intelligent Media Laboratory, Sejong University, Seoul, South Korea  
+*September 2021 - Present*
 
-### 💼 **Professional Experience**
-- Current research position at Intelligent Media Laboratory
-- Previous academic and research roles
-- International collaboration highlights
+Leading multiple research projects in AI, computer vision, and materials informatics. Actively contributing to international collaborations and publishing in top-tier journals and conferences.
 
-### 🔬 **Technical Expertise**
-- Advanced programming skills (Python, MATLAB, C++)
-- AI/ML frameworks and tools proficiency
-- Research methodologies and academic service
+## 📊 GitHub Profile Overview
 
-### 📝 **Publications & Impact**
-- Peer-reviewed journal articles
-- Conference presentations and proceedings
-- Research metrics and academic profiles
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=munsif200&show_icons=true&theme=default&hide_border=true&count_private=true)
 
-## 🚀 Quick Start
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=munsif200&layout=compact&theme=default&hide_border=true)
 
-### View the Website
-Simply visit: **[https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)**
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=munsif200&theme=default&hide_border=true)
 
-### Local Development
-```bash
-# Clone the repository
-git clone https://github.com/munsif200/munsif200.git
-cd munsif200
+### � GitHub Activity
+- 🔭 Currently working on: **AI-powered computer vision research projects**
+- 🌱 Learning: **Advanced deep learning architectures and VR/AR technologies**
+- 👯 Looking to collaborate on: **Computer vision, materials informatics, and educational VR projects**
+- 🤔 Open to: **Research collaborations and academic partnerships**
+- � Ask me about: **Computer Vision, Deep Learning, VR/AR, Materials Informatics**
+- 📫 Reach me: **munsif3797@gmail.com**
+- ⚡ Fun fact: **I combine AI research with immersive technologies to create innovative educational solutions**
 
-# Install dependencies (requires Ruby and Jekyll)
-bundle install
+### 🛠️ Technical Stack
 
-# Serve locally
-bundle exec jekyll serve
+**Programming Languages:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-# View at http://localhost:4000
-```
+**AI/ML Frameworks:**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=OpenCV&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white)
 
-## 🛠️ Built With
+**Tools & Technologies:**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 
-- **Jekyll** - Static site generator
-- **GitHub Pages** - Hosting and deployment
-- **Responsive Design** - Mobile and desktop optimized
-- **SEO Optimized** - Search engine friendly
-- **Professional Styling** - Academic-focused design
+## 🚀 Quick Access
 
-## 📱 Responsive Design
+### 🌐 View the Website
+**[https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)**
 
-The website is fully responsive and optimized for:
-- 🖥️ Desktop computers
-- 📱 Mobile devices
-- 📋 Tablets
-- 🖨️ Print-friendly layouts
+### 🔗 Connect & Collaborate
 
-## 🔗 Connect with Dr. Munsif
+[![Website](https://img.shields.io/badge/Website-munsif200.github.io-blue?style=for-the-badge&logo=github)](https://munsif200.github.io/munsif200/)
+[![Email](https://img.shields.io/badge/Email-munsif3797@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:munsif3797@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-munsif200-black?style=for-the-badge&logo=github)](https://github.com/munsif200)
 
-- **🌐 Website:** [https://munsif200.github.io/munsif200/](https://munsif200.github.io/munsif200/)
-- **📧 Email:** munsif3797@gmail.com
-- **🏛️ Institution:** Intelligent Media Laboratory, Sejong University
-- **📍 Location:** Seoul, South Korea
-
-## 📈 Updates & Maintenance
-
-This website is regularly updated with:
-- New research publications
-- Recent project developments
-- Professional achievements
-- Academic service activities
+**� Location:** Seoul, South Korea  
+**🏛️ Institution:** Intelligent Media Laboratory, Sejong University  
+**� Research Areas:** Computer Vision • Deep Learning • VR/AR • Materials Informatics
 
 ---
 
-### 📄 Repository Structure
+### � Current Focus & Goals
 
-```
-├── index.md              # Homepage with hero section and overview
-├── _pages/               # Main content pages
-│   ├── about.md          # Academic background
-│   ├── publications.md   # Research publications
-│   ├── projects.md       # Project portfolio
-│   ├── skills.md         # Technical expertise
-│   └── contact.md        # Contact information
-├── assets/               # Images and styling
-├── _config.yml           # Site configuration
-└── README.md             # This file
-```
-
-### 🚀 Deployment Status
-
-- ✅ **Live:** Website automatically deploys via GitHub Pages
-- ✅ **SSL:** Secure HTTPS connection
-- ✅ **CDN:** Fast global content delivery
-- ✅ **Mobile:** Responsive design tested
+- 🎯 **Research:** Advancing AI applications in computer vision and materials science
+- 🤝 **Collaboration:** Open to academic partnerships and industry projects
+- 📚 **Education:** Contributing to the global research community through publications and open-source projects
+- 🌐 **Innovation:** Bridging the gap between theoretical research and practical applications
 
 ---
 
-**Last Updated:** August 2025 | **Status:** Active & Maintained
+**⭐ If you find my work interesting, please consider starring this repository!**
 
 *Built with ❤️ for academic excellence and research visibility*
