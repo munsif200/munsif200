@@ -3,22 +3,9 @@ layout: page
 title: "Dr. Muhammad Munsif"
 ---
 
-<!-- Floating Navigation Bar -->
-<nav style="position: fixed; top: 0; left: 0; right: 0; background: rgba(102, 126, 234, 0.95); backdrop-filter: blur(10px); z-index: 1000; padding: 1em 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-  <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; gap: 2em; flex-wrap: wrap; padding: 0 2em;">
-    <a href="#about" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">About</a>
-    <a href="#skills" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Skills</a>
-    <a href="#publications" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Publications</a>
-    <a href="#patents" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Patents</a>
-    <a href="#projects" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Projects</a>
-    <a href="#experience" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Experience</a>
-    <a href="#contact" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5em 1em; border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='transparent'">Contact</a>
-  </div>
-</nav>
-
 <style>
 /* Modern Academic Website Styles */
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 80px; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; }
 .hero-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4em 0; margin: -2em -2em 3em -2em; }
 .hero-content { display: flex; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 2em; gap: 3em; }
 .hero-photo { flex-shrink: 0; }
@@ -30,7 +17,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .hero-links a:hover { background: rgba(255,255,255,0.3); }
 
 .main-content { max-width: 1200px; margin: 0 auto; padding: 0 2em; }
-.section { margin: 4em 0; scroll-margin-top: 100px; }
+.section { margin: 4em 0; }
 .section h2 { color: #333; border-bottom: 3px solid #667eea; padding-bottom: 0.5em; margin-bottom: 2em; }
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5em; }
 .skill-card { background: #f8f9fa; padding: 1.5em; border-radius: 10px; border-left: 5px solid #667eea; }
