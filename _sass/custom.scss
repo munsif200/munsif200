@@ -1,0 +1,161 @@
+/* Custom styles for Dr. Muhammad Munsif's academic website */
+
+/* Hero section styling */
+.page__hero {
+  margin-bottom: 2em;
+}
+
+/* Skills grid enhancement */
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature__item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Academic content styling */
+.academic-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-left: 4px solid #007acc;
+}
+
+/* Publication list enhancements */
+.publications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.publications-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.publication-title {
+  font-weight: bold;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.publication-title:hover {
+  text-decoration: underline;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Project cards */
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project-card h4 {
+  color: #007acc;
+  margin-bottom: 0.5rem;
+}
+
+.project-tech {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .feature__item {
+    padding: 1rem;
+  }
+  
+  .academic-section {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+}
+
+/* Contact section styling */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.contact-links a:hover {
+  background: #005a99;
+  color: white;
+}
+
+/* Author profile enhancements */
+.author__avatar img {
+  border: 3px solid #007acc;
+}
+
+.author__bio {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Typography improvements */
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+h1 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Code and tech stack styling */
+code {
+  background: #f1f1f1;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
