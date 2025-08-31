@@ -15,7 +15,55 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
   margin: 0; 
   padding: 0; 
   position: relative;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(13                                                       </table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>table>
+
+        </div>
+      </section>f7fa 0%, #c3cfe2 100%);
 }
 
 /* TOP NAVIGATION BAR */
@@ -405,14 +453,14 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
       <div class="hero-section">
         <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif" class="profile-photo">
         <h1 class="hero-title">Welcome to My Academic Portfolio</h1>
-        <p class="hero-subtitle">Exploring the frontiers of Computer Vision, Deep Learning, Virtual Reality, and Intelligent Transportation Systems through innovative research and cutting-edge technology.</p>
+        <p class="hero-subtitle">Exploring the frontiers of Computer Vision, Deep Learning, Virtual Reality, and Materials Informatics through innovative research and cutting-edge technology.</p>
       </div>
 
       <!-- ABOUT SECTION -->
       <section id="about" class="section">
         <h2>About Me</h2>
         <p style="font-size: 1.2em; line-height: 1.8; text-align: center; max-width: 800px; margin: 0 auto 2em auto; color: #1e293b;">
-          Hello! I'm Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.
+          Hello! I'm Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as computer vision, machine learning, deep learning, virtual reality, augmented reality, and materials informatics. I am passionate about exploring new ideas in these areas.
         </p>
         
         <div class="content-grid">
@@ -424,7 +472,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           </div>
           <div class="content-card">
             <h3>🔬 Research Focus</h3>
-            <p>Computer Vision, Deep Learning, Virtual Reality (VR), Augmented Reality (AR), Intelligent Transportation Systems, and Materials Informatics</p>
+            <p>Computer Vision, Deep Learning, Virtual Reality (VR), Augmented Reality (AR), and Materials Informatics</p>
           </div>
           <div class="content-card">
             <h3>📍 Current Position</h3>
@@ -529,7 +577,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           <div class="content-card">
             <h3>� Peer Review Services</h3>
             <p><strong>12+ Verified Reviews</strong><br>
-            Active reviewer for top-tier journals and conferences in computer vision, AI, and transportation systems including IEEE Transactions and major conference proceedings.</p>
+            Active reviewer for top-tier journals and conferences in computer vision, AI, materials informatics, and machine learning including IEEE Transactions and major conference proceedings.</p>
           </div>
           <div class="content-card">
             <h3>🔬 Research Projects Participation</h3>
@@ -559,12 +607,12 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
           <div class="content-card">
             <h3>�🎯 Research Focus Areas</h3>
             <p><strong>Specialized Expertise</strong><br>
-            Action recognition in challenging lighting conditions, materials informatics, autonomous vehicle safety, and educational VR applications.</p>
+            Action recognition in challenging lighting conditions, materials informatics, and educational VR applications.</p>
           </div>
           <div class="content-card">
             <h3>🌐 International Collaboration</h3>
             <p><strong>Global Research Network</strong><br>
-            Active collaboration with international research teams across multiple continents. Contributing to cutting-edge research in computer vision, deep learning, materials informatics, and intelligent transportation systems. Regular participation in international conferences and workshops, fostering knowledge exchange and advancing the field through collaborative research initiatives.</p>
+            Active collaboration with international research teams across multiple continents. Contributing to cutting-edge research in computer vision, deep learning, materials informatics, virtual reality, and augmented reality. Regular participation in international conferences and workshops, fostering knowledge exchange and advancing the field through collaborative research initiatives.</p>
           </div>
         </div>
       </section>
