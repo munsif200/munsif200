@@ -26,7 +26,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Site Author
 author:
   name: "Dr. Muhammad Munsif"
-  avatar: "/assets/images/profile.jpg"
+  avatar: # "/assets/images/profile.jpg" # Add when image is available
   bio: "PhD in Computer Science | Researcher in Computer Vision, Deep Learning, VR/AR, Intelligent Transportation Systems"
   location: "Seoul, South Korea"
   email: "munsif3797@gmail.com"
