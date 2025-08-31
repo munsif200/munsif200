@@ -6,7 +6,6 @@ Dr. Muhammad Munsif is a dedicated researcher specializing in:
 - **Materials Informatics**
 - **Action Recognition** & **Machine Learning**
 
-Currently pursuing cutting-edge research in AI and computer vision applications at one of South Korea's leading research institutions. With a strong background in computational sciences and artificial intelligence, I focus on developing innovative solutions that bridge theoretical research with practical applications in industry and academia.
 
 ### 🔬 Research Focus
 - Advanced deep learning architectures for computer vision
