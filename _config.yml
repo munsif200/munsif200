@@ -1,8 +1,8 @@
 # Site Configuration
 title: "Dr. Muhammad Munsif"
 description: "PhD in Computer Science | Researcher in Computer Vision, Deep Learning, VR/AR, Intelligent Transportation Systems"
-url: "https://your-username.github.io"
-baseurl: ""
+url: "https://munsif200.github.io"
+baseurl: "/munsif200"
 
 # Author Information
 author:
@@ -22,8 +22,9 @@ author:
       url: "https://github.com/your-username"
 
 # Theme and Build Settings
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+theme: minima
+# remote_theme: "mmistakes/minimal-mistakes"
+# minimal_mistakes_skin: "default"
 
 # Site Settings
 timezone: "UTC"
@@ -96,10 +97,12 @@ collections:
     permalink: /:collection/:name/
 
 # Navigation
-include:
-  - _pages
-  - assets
-  - _posts
+header_pages:
+  - _pages/about.md
+  - _pages/skills.md
+  - _pages/publications.md
+  - _pages/projects.md
+  - _pages/contact.md
 
 # Exclude
 exclude:

@@ -1,8 +1,7 @@
 ---
 permalink: /skills/
 title: "Skills & Expertise"
-layout: single
-author_profile: true
+layout: page
 ---
 
 ## Technical Expertise

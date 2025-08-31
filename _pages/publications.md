@@ -1,8 +1,7 @@
 ---
 permalink: /publications/
 title: "Research & Publications"
-layout: single
-author_profile: true
+layout: page
 ---
 
 ## Featured Publications

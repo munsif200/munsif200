@@ -1,15 +1,14 @@
 ---
 permalink: /about/
 title: "About Me"
-layout: single
-author_profile: true
+layout: page
 ---
 
 ## Academic Background
 
 I am Dr. Muhammad Munsif, currently working as a researcher at Intelligent Media Laboratory in Seoul, South Korea. My work revolves around developing and implementing cutting-edge technologies in various fields such as intelligent transportation systems, computer vision, machine learning, deep learning, virtual reality, and augmented reality. I am passionate about exploring new ideas in these areas.
 
-![Profile Photo](/assets/images/Munsif.jpg){: .align-left .profile-photo}
+![Profile Photo](/munsif200/assets/images/Munsif.jpg)
 
 My research journey has been driven by a passion for understanding and advancing the frontiers of artificial intelligence and its applications in real-world scenarios. I focus on the intersection of computer vision and deep learning, with particular emphasis on developing robust algorithms that can operate in challenging environments, including low-light and dark conditions.
 
@@ -70,25 +69,3 @@ I am committed to serving the academic community and promoting STEM education:
 - **Program Committee Member** for international conferences
 - **Mentor** for undergraduate and graduate students
 - **STEM Outreach** volunteer at local schools
-
-<style>
-.profile-photo {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 0 20px 20px 0;
-  border: 3px solid #f0f0f0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .profile-photo {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto 20px auto;
-    float: none;
-  }
-}
-</style>

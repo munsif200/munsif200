@@ -1,8 +1,7 @@
 ---
 permalink: /contact/
 title: "Contact & Links"
-layout: single
-author_profile: true
+layout: page
 ---
 
 ## Get in Touch

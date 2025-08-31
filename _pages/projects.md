@@ -1,8 +1,7 @@
 ---
 permalink: /projects/
 title: "Projects"
-layout: single
-author_profile: true
+layout: page
 ---
 
 ## Featured Projects
