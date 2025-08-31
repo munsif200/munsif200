@@ -11,7 +11,7 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
 /* FULL-WID            <h3>ogramming & Tools</h3>H LAYOUT SYSTEM */
 .full-width-container { 
   width: 100vw; 
-  min-height:             <h            <h3>🎯 Research Focus Areas</h3>>🏆 Awards & Scholarships</h3>00vh; 
+  min-height:             <h            <h3>🎯 Research Focus Areas</h3>>🏆 Awards & Scholarships</h3h; 
   margin: 0; 
   padding: 0; 
   position: relative;
@@ -572,52 +572,148 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
       <!-- PROJECTS SECTION -->
       <section id="projects" class="section">
         <h2>Research Projects Participation</h2>
-        <div style="overflow-x: auto; margin-bottom: 2em;">
-          <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="overflow-x: auto; margin-bottom: 2em; box-shadow: 0 8px 32px rgba(0,0,0,0.1); border-radius: 15px;">
+          <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 15px; overflow: hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
             <thead>
-              <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
-                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Position</th>
-                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Project Title/Details</th>
-                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Duration</th>
-                <th style="padding: 1em; text-align: left; border-bottom: 2px solid #ddd;">Funding Agency</th>
+              <tr style="background: linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #dc2626 100%); color: white; font-weight: 600;">
+                <th style="padding: 1.5em 1.2em; text-align: left; font-size: 1.1em; border-right: 1px solid rgba(255,255,255,0.1);">Position</th>
+                <th style="padding: 1.5em 1.2em; text-align: left; font-size: 1.1em; border-right: 1px solid rgba(255,255,255,0.1);">Project Title & Description</th>
+                <th style="padding: 1.5em 1.2em; text-align: left; font-size: 1.1em; border-right: 1px solid rgba(255,255,255,0.1);">Duration</th>
+                <th style="padding: 1.5em 1.2em; text-align: left; font-size: 1.1em;">Funding Agency</th>
               </tr>
             </thead>
             <tbody>
-              <tr style="border-bottom: 1px solid #eee;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Bridging the Early Diagnosis and Treatment Gap of Brain Diseases via Smart, Connected, Proactive and Evidence-based Technological Interventions</td>
-                <td style="padding: 1em;">---</td>
-                <td style="padding: 1em;">European Union through Research and Innovation Program</td>
+              <!-- EU Research Program -->
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Bridging the Early Diagnosis and Treatment Gap of Brain Diseases</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Smart, Connected, Proactive and Evidence-based Technological Interventions for neurological health monitoring and early intervention systems.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">TBD</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇪🇺 European Union</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">Research & Innovation Program</span>
+                </td>
               </tr>
-              <tr style="background: #f8f9fa; border-bottom: 1px solid #eee;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Open Platform Technology for Autonomous Participation of Energy Network Components</td>
-                <td style="padding: 1em;">Sep 2021 - Present</td>
-                <td style="padding: 1em;">National Research Foundation of Korea</td>
+              
+              <!-- National Research Foundation of Korea Projects -->
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Building a SynchroLab Data Cloud-Based Solid Electrolyte Materials Hub</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Advanced materials research platform for solid electrolyte development and optimization using cloud-based data analytics.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Jul 2024 - Aug 2025</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
               </tr>
-              <tr style="border-bottom: 1px solid #eee;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Connected Vision</td>
-                <td style="padding: 1em;">Jan 2023 - Present</td>
-                <td style="padding: 1em;">National Research Foundation of Korea</td>
+              
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Abnormal Behavior Situational Awareness Technology</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Crime/Accident Prevention in Connected Vision Environments using AI-powered surveillance and behavioral analysis systems.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Mar 2023 - Feb 2026</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
               </tr>
-              <tr style="background: #f8f9fa; border-bottom: 1px solid #eee;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Deep Learning-Based Anomaly Detection and Predictive Maintenance Management System For Industrial Machinery</td>
-                <td style="padding: 1em;">Jan 2023 - Jun 2023</td>
-                <td style="padding: 1em;">Seoul R&D Program</td>
+              
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Recycling Technology for Waste Lithium Iron Phosphate Batteries</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Development of sustainable battery recycling methods that maximize carbon dioxide utilization for environmental sustainability.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">May 2023 - Apr 2024</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
               </tr>
-              <tr style="border-bottom: 1px solid #eee;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Precision Agriculture for Disease Preventions</td>
-                <td style="padding: 1em;">Jan 2022 - Jun 2023</td>
-                <td style="padding: 1em;">Ministry of Education, South Korea</td>
+              
+              <!-- Other Projects -->
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Open Platform Technology for Autonomous Energy Network Components</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Smart grid and autonomous energy management systems for sustainable power distribution and consumption optimization.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Sep 2021 - Present</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
               </tr>
-              <tr style="background: #f8f9fa;">
-                <td style="padding: 1em; vertical-align: top;"><strong>Researcher</strong></td>
-                <td style="padding: 1em;">Virtual Reality-based Learning Strategy for Children</td>
-                <td style="padding: 1em;">---</td>
-                <td style="padding: 1em;">HCR Endowment Fund, Management Unit, Higher Education, Archives, & Libraries Department, KPK</td>
+              
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Connected Vision Systems</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Advanced computer vision networks for real-time monitoring, surveillance, and intelligent video analytics applications.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Jan 2023 - Present</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🇰🇷 NRF Korea</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">National Research Foundation</span>
+                </td>
+              </tr>
+              
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Deep Learning-Based Anomaly Detection System</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Predictive Maintenance Management System for Industrial Machinery using advanced machine learning algorithms.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">Jan 2023 - Jun 2023</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #7c3aed, #a855f7); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🏢 Seoul R&D</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">Seoul R&D Program</span>
+                </td>
+              </tr>
+              
+              <tr style="background: #f8fafc; border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Precision Agriculture for Disease Prevention</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">AI-driven solutions for agricultural disease prevention, crop monitoring, and smart farming technologies.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">Jan 2022 - Jun 2023</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #059669, #10b981); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🎓 Ministry of Education</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">South Korea</span>
+                </td>
+              </tr>
+              
+              <tr style="border-bottom: 2px solid #f1f5f9; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #1e40af;"><span style="background: #dbeafe; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Virtual Reality-based Learning Strategy for Children</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">Immersive educational applications and VR learning environments designed specifically for children's cognitive development.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #ef4444; font-weight: 500;">TBD</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #ea580c, #f97316); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🏛️ HCR Endowment</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">KPK, Pakistan</span>
+                </td>
+              </tr>
+              
+              <tr style="background: #f8fafc; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f1f5f9'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#f8fafc'; this.style.transform='scale(1)'">
+                <td style="padding: 1.5em 1.2em; vertical-align: top; font-weight: 600; color: #059669;"><span style="background: #d1fae5; padding: 0.5em 1em; border-radius: 25px; font-size: 0.9em;">Researcher</span></td>
+                <td style="padding: 1.5em 1.2em; line-height: 1.6;">
+                  <strong style="color: #1e293b; font-size: 1.05em;">Intelligent Transportation Systems</strong><br>
+                  <span style="color: #64748b; font-size: 0.95em;">AI-powered autonomous vehicle safety systems, collision avoidance using proximal policy optimization, and smart traffic management.</span>
+                </td>
+                <td style="padding: 1.5em 1.2em; color: #059669; font-weight: 500;">Ongoing</td>
+                <td style="padding: 1.5em 1.2em;">
+                  <span style="background: linear-gradient(135deg, #1f2937, #374151); color: white; padding: 0.4em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 500;">🚗 Multiple Agencies</span><br>
+                  <span style="color: #64748b; font-size: 0.85em;">Various Funding Sources</span>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -627,19 +723,6 @@ body, html { margin: 0; padding: 0; width: 100%; overflow-x: hidden; font-family
             <p>Research and development of AI-powered autonomous vehicle safety systems, including collision avoidance using proximal policy optimization.</p>
           </div>
 
-
-        </div>
-        
-        <div style="background: #f8f9fa; padding: 2em; border-radius: 10px; border-left: 4px solid #28a745; margin-top: 2em;">
-          <h3 style="color: #1e293b; margin-bottom: 1em;">🇰🇷 National Research Foundation of Korea Projects</h3>
-          <ul style="line-height: 1.8; color: #2d3748;">
-            <li><strong>Building a SynchroLab Data Cloud-Based Solid Electrolyte Materials Hub</strong><br>
-                <em>Duration:</em> 2024-07-01 to 2025-08-31</li>
-            <li><strong>Abnormal Behavior Situational Awareness Technology for Crime/Accident Prevention in Connected Vision Environments</strong><br>
-                <em>Duration:</em> 2023-03-01 to 2026-02-28</li>
-            <li><strong>Development of a recycling technology for waste lithium iron phosphate batteries that maximizes carbon dioxide utilization</strong><br>
-                <em>Duration:</em> 2023-05-01 to 2024-04-30</li>
-          </ul>
         </div>
       </section>
 
