@@ -19,19 +19,24 @@ title: "Dr. Muhammad Munsif"
 <style>
 /* Modern Academic Website Styles */
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 80px; }
-.hero-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4em 0; margin: -2em -2em 3em -2em; }
-.hero-content { display: flex; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 2em; gap: 3em; }
-.hero-photo { flex-shrink: 0; }
-.hero-photo img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; }
-.hero-text h1 { font-size: 3em; margin: 0 0 0.5em 0; }
-.hero-text p { font-size: 1.2em; margin: 0.5em 0; }
-.hero-links { margin-top: 1.5em; }
-.hero-links a { background: rgba(255,255,255,0.2); color: white; padding: 0.5em 1em; margin-right: 1em; text-decoration: none; border-radius: 5px; display: inline-block; margin-bottom: 0.5em; }
-.hero-links a:hover { background: rgba(255,255,255,0.3); }
 
-.main-content { max-width: 1200px; margin: 0 auto; padding: 0 2em; }
-.section { margin: 4em 0; scroll-margin-top: 100px; }
-.section h2 { color: #333; border-bottom: 3px solid #667eea; padding-bottom: 0.5em; margin-bottom: 2em; }
+/* New Layout Styles */
+.main-layout { max-width: 1200px; margin: 0 auto; padding: 2em; display: grid; grid-template-columns: 300px 1fr; gap: 3em; }
+.sidebar { position: sticky; top: 100px; height: fit-content; }
+.content-area { min-height: 100vh; }
+
+.profile-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2em; border-radius: 15px; text-align: center; margin-bottom: 2em; }
+.profile-photo img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; margin-bottom: 1em; }
+.profile-info h1 { font-size: 1.8em; margin: 0 0 0.5em 0; }
+.profile-info p { font-size: 1em; margin: 0.3em 0; }
+
+.profile-links { display: flex; flex-direction: column; gap: 0.5em; margin-top: 1.5em; }
+.profile-links a { background: rgba(255,255,255,0.2); color: white; padding: 0.8em 1em; text-decoration: none; border-radius: 8px; font-weight: 500; text-align: center; transition: background 0.3s; }
+.profile-links a:hover { background: rgba(255,255,255,0.3); }
+
+.section { margin: 3em 0; scroll-margin-top: 100px; }
+.section h2 { color: #333; border-bottom: 3px solid #667eea; padding-bottom: 0.5em; margin-bottom: 2em; font-size: 2em; }
+
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5em; }
 .skill-card { background: #f8f9fa; padding: 1.5em; border-radius: 10px; border-left: 5px solid #667eea; }
 .skill-card h3 { color: #333; margin-top: 0; }
@@ -51,6 +56,16 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .contact-links a:hover { background: #5a6fd8; }
 
 @media (max-width: 768px) {
+  .main-layout { grid-template-columns: 1fr; gap: 2em; }
+  .sidebar { position: static; }
+  .profile-card { margin-bottom: 2em; }
+  .skills-grid, .projects-grid { grid-template-columns: 1fr; }
+  .contact-links { flex-direction: column; }
+}
+</style>
+.contact-links a:hover { background: #5a6fd8; }
+
+@media (max-width: 768px) {
   .hero-content { flex-direction: column; text-align: center; }
   .hero-text h1 { font-size: 2em; }
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
@@ -58,18 +73,22 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 </style>
 
-<!-- Hero Section -->
-<div class="hero-section">
-  <div class="hero-content">
-    <div class="hero-photo">
-      <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif">
-    </div>
-    <div class="hero-text">
-      <h1>Dr. Muhammad Munsif</h1>
-      <p><strong>PhD in Computer Science</strong></p>
-      <p>Research Assistant | Intelligent Media Laboratory</p>
-      <p>Sejong University, Seoul, South Korea</p>
-      <div class="hero-links">
+<!-- Main Layout with Sidebar -->
+<div class="main-layout">
+  <!-- Left Sidebar with Profile -->
+  <div class="sidebar">
+    <div class="profile-card">
+      <div class="profile-photo">
+        <img src="/munsif200/assets/images/Munsif.jpg" alt="Dr. Muhammad Munsif">
+      </div>
+      <div class="profile-info">
+        <h1>Dr. Muhammad Munsif</h1>
+        <p><strong>PhD in Computer Science</strong></p>
+        <p>Research Assistant</p>
+        <p>Intelligent Media Laboratory</p>
+        <p>Sejong University, Seoul</p>
+      </div>
+      <div class="profile-links">
         <a href="https://scholar.google.com/citations?user=YJ5X6HYAAAAJ&hl=en">🎓 Google Scholar</a>
         <a href="https://www.linkedin.com/in/muhammadmunsif/">💼 LinkedIn</a>
         <a href="https://github.com/munsif200">💻 GitHub</a>
@@ -77,9 +96,9 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
       </div>
     </div>
   </div>
-</div>
 
-<div class="main-content">
+  <!-- Right Content Area -->
+  <div class="content-area">
 
 <!-- About Me Section -->
 <section class="section" id="about">
@@ -286,7 +305,8 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
   </div>
 </section>
 
-</div>
+  </div> <!-- End content-area -->
+</div> <!-- End main-layout -->
 
 <!-- Footer -->
 <footer style="background: #333; color: white; text-align: center; padding: 2em; margin-top: 4em;">
