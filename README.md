@@ -14,7 +14,7 @@ Dr. Muhammad Munsif is a dedicated researcher specializing in:
 - Materials science applications using AI and machine learning
 
 ### 🏛️ Current Position
-**Research Assistant** | Intelligent Media Laboratory, Sejong University, Seoul, South Korea  
+**Researcher** | Intelligent Media Laboratory, Sejong University, Seoul, South Korea  
 *September 2021 - Present*
 
 Leading multiple research projects in AI, computer vision, and materials informatics. Actively contributing to international collaborations and publishing in top-tier journals and conferences.
