@@ -8,10 +8,10 @@ Dr. Muhammad Munsif is a dedicated researcher specializing in:
 
 
 ### 🔬 Research Focus
+- Real-time action recognition and behavior analysis systems
 - Advanced deep learning architectures for computer vision
 - Immersive technologies for educational and industrial applications
 - Materials science applications using AI and machine learning
-- Real-time action recognition and behavior analysis systems
 
 ### 🏛️ Current Position
 **Research Assistant** | Intelligent Media Laboratory, Sejong University, Seoul, South Korea  
